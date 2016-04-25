@@ -29814,7 +29814,7 @@ msgstr ""
 
 #: ../Doc/whatsnew/3.5.rst:626
 msgid ":pep:`485` -- A function for testing approximate equality"
-msgstr ""
+msgstr ":pep:`485` -- Une fonction pour tester des égalités approximées"
 
 #: ../Doc/whatsnew/3.5.rst:626
 msgid ""

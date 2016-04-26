@@ -2780,8 +2780,9 @@ msgid "Command"
 msgstr ""
 
 #: ../Doc/distutils/builtdist.rst:136
+#, fuzzy
 msgid "Formats"
-msgstr ""
+msgstr "Format"
 
 #: ../Doc/distutils/builtdist.rst:138
 msgid ":command:`bdist_dumb`"

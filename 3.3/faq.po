@@ -694,6 +694,7 @@ msgid "Practical answer:"
 msgstr "Réponse concrète :"
 
 #: ../Doc/faq/design.rst:371
+#, fuzzy
 msgid ""
 "`Cython <http://cython.org/>`_ and `Pyrex <http://www.cosc.canterbury.ac.nz/"
 "~greg/python/Pyrex/>`_ compile a modified version of Python with optional "
@@ -702,6 +703,14 @@ msgid ""
 "performance. `Nuitka <http://www.nuitka.net/>`_ is an up-and-coming compiler "
 "of Python into C++ code, aiming to support the full Python language."
 msgstr ""
+"`Cython <http://cython.org/>`_ et `Pyrex <http://www.cosc.canterbury.ac.nz/"
+"greg.ewing/python/Pyrex/>`_ compilent une version modifiée de Python avec "
+"des annotations optionnelles en extensions C.  `Weave <http://docs.scipy.org/"
+"doc/scipy-dev/reference/tutorial/weave.html>`_ rend facile d'entremêler du "
+"code C et Python de diverses façons afin d'améliorer au mieux les "
+"performances. `Nuitka <http://www.nuitka.net/>`_ est un compilateur de "
+"Python en C++ plein d'avenir, dont le but est de gérer l'ensemble du langage "
+"Python."
 
 #: ../Doc/faq/design.rst:378
 msgid "Theoretical answer:"
@@ -722,6 +731,7 @@ msgstr ""
 "d'exécution de Python, même pour des opérations simples comme ``x + 1``."
 
 #: ../Doc/faq/design.rst:388
+#, fuzzy
 msgid ""
 "Several projects described in the Python newsgroup or at past `Python "
 "conferences <http://python.org/community/workshops/>`_ have shown that this "
@@ -732,6 +742,15 @@ msgid ""
 "proceedings from the `1997 Python conference <http://python.org/"
 "workshops/1997-10/proceedings/>`_ for more information.)"
 msgstr ""
+"Plusieurs projets décrits dans le forum de Python ou dans les anciennes "
+"`Conférences Python <https://www.python.org/community/workshops/>`_ ont "
+"montré que cette approche est réalisable, même si les améliorations "
+"atteintes restaient modestes (autour de ×2). Jython utilise la même "
+"stratégie pour compiler en *bytecode* Java. (Jim Hugunin a démontré qu'en "
+"combinaison avec une analyse de la totalité du programme, des améliorations "
+"de ×1000 sont possibles sur de petits programmes de démonstration. Voir le "
+"compte rendu de la  `Conférence de Python 1997 <http://legacy.python.org/"
+"workshops/1997-10/proceedings/>`_ pour plus d'informations.)"
 
 #: ../Doc/faq/design.rst:399
 msgid "How does Python manage memory?"

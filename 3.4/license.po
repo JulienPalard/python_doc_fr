@@ -251,8 +251,9 @@ msgid "Terms and conditions for accessing or otherwise using Python"
 msgstr "Conditions générales pour accéder à, ou utiliser, Python"
 
 #: ../Doc/license.rst:77
+#, fuzzy
 msgid "PSF LICENSE AGREEMENT FOR PYTHON release"
-msgstr ""
+msgstr "PSF LICENSE AGREEMENT FOR PYTHON |release|"
 
 #: ../Doc/license.rst:78
 msgid ""

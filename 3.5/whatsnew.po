@@ -1699,8 +1699,9 @@ msgid ""
 msgstr ""
 
 #: ../Doc/whatsnew/2.1.rst:123 ../Doc/whatsnew/2.2.rst:927
+#, fuzzy
 msgid ":pep:`227` - Statically Nested Scopes"
-msgstr ""
+msgstr ":pep:`227`: *Statically Nested Scopes*"
 
 #: ../Doc/whatsnew/2.1.rst:124 ../Doc/whatsnew/2.2.rst:928
 msgid "Written and implemented by Jeremy Hylton."
@@ -1961,8 +1962,9 @@ msgid ""
 msgstr ""
 
 #: ../Doc/whatsnew/2.1.rst:295
+#, fuzzy
 msgid ":pep:`230` - Warning Framework"
-msgstr ""
+msgstr ":pep:`230` -- Gestion des alertes"
 
 #: ../Doc/whatsnew/2.1.rst:296
 msgid "Written and implemented by Guido van Rossum."
@@ -3401,8 +3403,9 @@ msgid ""
 msgstr ""
 
 #: ../Doc/whatsnew/2.2.rst:770
+#, fuzzy
 msgid ":pep:`238` - Changing the Division Operator"
-msgstr ""
+msgstr ":pep:`230` -- Gestion des alertes"
 
 #: ../Doc/whatsnew/2.2.rst:771
 msgid ""
@@ -6425,8 +6428,9 @@ msgid ":pep:`292` - Simpler String Substitutions"
 msgstr ""
 
 #: ../Doc/whatsnew/2.4.rst:212
+#, fuzzy
 msgid "Written and implemented  by Barry Warsaw."
-msgstr ""
+msgstr "Écrit et implémenté par Barry Warsaw."
 
 #: ../Doc/whatsnew/2.4.rst:218
 msgid "PEP 318: Decorators for Functions and Methods"
@@ -8350,8 +8354,9 @@ msgid ""
 msgstr ""
 
 #: ../Doc/whatsnew/2.5.rst:359
+#, fuzzy
 msgid ":pep:`338` - Executing modules as scripts"
-msgstr ""
+msgstr ":pep:`338` --  Exécuter des modules en tant que scripts"
 
 #: ../Doc/whatsnew/2.5.rst:360
 msgid "PEP written and  implemented by Nick Coghlan."
@@ -11242,18 +11247,22 @@ msgid "``b``"
 msgstr "``b``"
 
 #: ../Doc/whatsnew/2.6.rst:810
+#, fuzzy
 msgid "Binary. Outputs the number in base 2."
-msgstr ""
+msgstr "Format binaire. Affiche le nombre en base 2."
 
 #: ../Doc/whatsnew/2.6.rst:811
 msgid "``c``"
 msgstr "``c``"
 
 #: ../Doc/whatsnew/2.6.rst:811
+#, fuzzy
 msgid ""
 "Character. Converts the integer to the corresponding Unicode character "
 "before printing."
 msgstr ""
+"Caractère. Convertit l'entier en le caractère unicode associé avant de "
+"l'afficher."
 
 #: ../Doc/whatsnew/2.6.rst:813
 msgid "``d``"
@@ -11276,10 +11285,13 @@ msgid "``x``"
 msgstr "``x``"
 
 #: ../Doc/whatsnew/2.6.rst:815
+#, fuzzy
 msgid ""
 "Hex format. Outputs the number in base 16, using lower-case letters for the "
 "digits above 9."
 msgstr ""
+"Format hexa(décimal). Affiche le nombre en base 16 en utilisant les lettres "
+"minuscules pour les chiffres au-dessus de 9."
 
 #: ../Doc/whatsnew/2.6.rst:817
 msgid "``e``"
@@ -11317,10 +11329,13 @@ msgid "``%``"
 msgstr ""
 
 #: ../Doc/whatsnew/2.6.rst:825
+#, fuzzy
 msgid ""
 "Percentage. Multiplies the number by 100 and displays in fixed ('f') format, "
 "followed by a percent sign."
 msgstr ""
+"Pourcentage. Multiplie le nombre par 100 et l'affiche en virgule fixe "
+"(``'f'``), suivi d'un symbole pourcent ``'%'``."
 
 #: ../Doc/whatsnew/2.6.rst:829
 msgid ""
@@ -11394,8 +11409,9 @@ msgid "*file*: the file object to which the output will be sent."
 msgstr ""
 
 #: ../Doc/whatsnew/2.6.rst:886
+#, fuzzy
 msgid ":pep:`3105` - Make print a function"
-msgstr ""
+msgstr ":pep:`3105`: *Make print a function*"
 
 #: ../Doc/whatsnew/2.6.rst:887
 msgid "PEP written by Georg Brandl."
@@ -11520,8 +11536,9 @@ msgid ""
 msgstr ""
 
 #: ../Doc/whatsnew/2.6.rst:1021
+#, fuzzy
 msgid ":pep:`3112` - Bytes literals in Python 3000"
-msgstr ""
+msgstr ":pep:`3112` : *Obtets littéraux en Python 3000*"
 
 #: ../Doc/whatsnew/2.6.rst:1022
 msgid "PEP written by Jason Orendorff; backported to 2.6 by Christian Heimes."
@@ -33924,8 +33941,9 @@ msgid "Python 3.5.0 release candidate 4"
 msgstr ""
 
 #: ../../../Misc/NEWS:870
+#, fuzzy
 msgid "Release date: 2015-09-09"
-msgstr ""
+msgstr "Date de sortie : 09-09-2013"
 
 #: ../../../Misc/NEWS:875
 msgid ""
@@ -33944,8 +33962,9 @@ msgid "Python 3.5.0 release candidate 3"
 msgstr ""
 
 #: ../../../Misc/NEWS:887
+#, fuzzy
 msgid "Release date: 2015-09-07"
-msgstr ""
+msgstr "Date de sortie : 09-09-2013"
 
 #: ../../../Misc/NEWS:892
 msgid ""
@@ -34390,8 +34409,9 @@ msgid "Python 3.5.0 beta 3"
 msgstr ""
 
 #: ../../../Misc/NEWS:1128
+#, fuzzy
 msgid "Release date: 2015-07-05"
-msgstr ""
+msgstr "Date de sortie : 05-01-2014"
 
 #: ../../../Misc/NEWS:1133
 msgid ""
@@ -40251,8 +40271,9 @@ msgid "Python 3.4.0 release candidate 3"
 msgstr ""
 
 #: ../../../Misc/NEWS:3938
+#, fuzzy
 msgid "Release date: 2014-03-09"
-msgstr ""
+msgstr "Date de sortie : 05-01-2014"
 
 #: ../../../Misc/NEWS:3943
 msgid ""
@@ -40438,8 +40459,9 @@ msgid "Python 3.4.0 release candidate 1"
 msgstr ""
 
 #: ../../../Misc/NEWS:4054
+#, fuzzy
 msgid "Release date: 2014-02-10"
-msgstr ""
+msgstr "Date de sortie : 05-01-2014"
 
 #: ../../../Misc/NEWS:4059
 msgid ""
@@ -40929,8 +40951,9 @@ msgid "Python 3.4.0 Beta 3"
 msgstr "Python 3.4.0 Beta 3"
 
 #: ../../../Misc/NEWS:4317
+#, fuzzy
 msgid "Release date: 2014-01-26"
-msgstr ""
+msgstr "Date de sortie : 05-01-2014"
 
 #: ../../../Misc/NEWS:4322
 msgid ""
@@ -43144,8 +43167,9 @@ msgid "Python 3.4.0 Alpha 4"
 msgstr "Python 3.4.0 Alpha 4"
 
 #: ../../../Misc/NEWS:5404
+#, fuzzy
 msgid "Release date: 2013-10-20"
-msgstr ""
+msgstr "Date de sortie : 29-09-2013"
 
 #: ../../../Misc/NEWS:5409
 msgid ""
@@ -44318,12 +44342,14 @@ msgid ""
 msgstr ""
 
 #: ../../../Misc/NEWS:6017
+#, fuzzy
 msgid "Python 3.4.0 Alpha 1"
-msgstr ""
+msgstr "Python 3.4.0 Alpha 2"
 
 #: ../../../Misc/NEWS:6019
+#, fuzzy
 msgid "Release date: 2013-08-03"
-msgstr ""
+msgstr "Date de sortie : 09-09-2013"
 
 #: ../../../Misc/NEWS:6024
 msgid ""

@@ -3259,8 +3259,9 @@ msgid ""
 msgstr ""
 
 #: whatsnew/2.2.rst:662 whatsnew/2.3.rst:248
+#, fuzzy
 msgid "PEP 255 - Simple Generators"
-msgstr ""
+msgstr "PEP 255 : Générateurs simples"
 
 #: whatsnew/2.2.rst:662 whatsnew/2.3.rst:248
 msgid ""
@@ -6420,8 +6421,9 @@ msgid "PEP 292 - Simpler String Substitutions"
 msgstr ""
 
 #: whatsnew/2.4.rst:212
+#, fuzzy
 msgid "Written and implemented  by Barry Warsaw."
-msgstr ""
+msgstr "Écrit et implémenté par Barry Warsaw."
 
 #: whatsnew/2.4.rst:218
 msgid "PEP 318: Decorators for Functions and Methods"
@@ -8093,8 +8095,9 @@ msgid ""
 msgstr ""
 
 #: whatsnew/2.5.rst:123
+#, fuzzy
 msgid "PEP 308 - Conditional Expressions"
-msgstr ""
+msgstr "PEP 308 : Expressions conditionnelles"
 
 #: whatsnew/2.5.rst:123
 msgid ""
@@ -8160,8 +8163,9 @@ msgid ""
 msgstr ""
 
 #: whatsnew/2.5.rst:201
+#, fuzzy
 msgid "PEP 309 - Partial Function Application"
-msgstr ""
+msgstr "PEP 309 : Application partielle de fonction"
 
 #: whatsnew/2.5.rst:201
 msgid ""
@@ -11252,18 +11256,22 @@ msgid "``b``"
 msgstr "``b``"
 
 #: whatsnew/2.6.rst:810
+#, fuzzy
 msgid "Binary. Outputs the number in base 2."
-msgstr ""
+msgstr "Format binaire. Affiche le nombre en base 2."
 
 #: whatsnew/2.6.rst:811
 msgid "``c``"
 msgstr "``c``"
 
 #: whatsnew/2.6.rst:811
+#, fuzzy
 msgid ""
 "Character. Converts the integer to the corresponding Unicode character "
 "before printing."
 msgstr ""
+"Caractère. Convertit l'entier en le caractère unicode associé avant de "
+"l'afficher."
 
 #: whatsnew/2.6.rst:813
 msgid "``d``"
@@ -11286,10 +11294,13 @@ msgid "``x``"
 msgstr "``x``"
 
 #: whatsnew/2.6.rst:815
+#, fuzzy
 msgid ""
 "Hex format. Outputs the number in base 16, using lower-case letters for the "
 "digits above 9."
 msgstr ""
+"Format hexa(décimal). Affiche le nombre en base 16 en utilisant les lettres "
+"minuscules pour les chiffres au-dessus de 9."
 
 #: whatsnew/2.6.rst:817
 msgid "``e``"
@@ -11327,10 +11338,13 @@ msgid "``%``"
 msgstr ""
 
 #: whatsnew/2.6.rst:825
+#, fuzzy
 msgid ""
 "Percentage. Multiplies the number by 100 and displays in fixed ('f') format, "
 "followed by a percent sign."
 msgstr ""
+"Pourcentage. Multiplie le nombre par 100 et l'affiche en virgule fixe "
+"(``'f'``), suivi d'un symbole pourcent ``'%'``."
 
 #: whatsnew/2.6.rst:829
 msgid ""

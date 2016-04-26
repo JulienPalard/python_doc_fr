@@ -1866,11 +1866,15 @@ msgid "text file"
 msgstr "fichier texte"
 
 #: ../Doc/glossary.rst:800
+#, fuzzy
 msgid ""
 "A :term:`file object` able to read and write :class:`str` objects. Often, a "
 "text file actually accesses a byte-oriented datastream and handles the text "
 "encoding automatically."
 msgstr ""
+"Un :term:`objet fichier` capable de lire et d'écrire des objets :class:"
+"`str`. Souvent, un fichier texte (*text file*) accède en fait à flux de "
+"donnée en octets, et gère l':term:`encodage de texte` automatiquement."
 
 #: ../Doc/glossary.rst:805
 msgid "A :term:`binary file` reads and write :class:`bytes` objects."
@@ -1918,6 +1922,7 @@ msgid "universal newlines"
 msgstr "retours à la ligne universels"
 
 #: ../Doc/glossary.rst:823
+#, fuzzy
 msgid ""
 "A manner of interpreting text streams in which all of the following are "
 "recognized as ending a line: the Unix end-of-line convention ``'\\n'``, the "
@@ -1925,6 +1930,11 @@ msgid ""
 "``'\\r'``.  See :pep:`278` and :pep:`3116`, as well as :func:`str."
 "splitlines` for an additional use."
 msgstr ""
+"Une manière d'interpréter des flux de texte dans lesquels toutes les fin de "
+"lignes suivantes sont reconnues: la convention Unix ``'\\n'``, la convention "
+"Windows ``'\\r\\n'``, et l'ancienne convention Macintosh ``'\\r'``. Voir la :"
+"pep:`278` et la :pep:`3116`, ainsi que la fonction :func:`bytes.splitlines` "
+"pour d'autres usages."
 
 #: ../Doc/glossary.rst:828
 msgid "view"

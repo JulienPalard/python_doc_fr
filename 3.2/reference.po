@@ -100,8 +100,9 @@ msgid ""
 msgstr ""
 
 #: reference/compound_stmts.rst:104
+#, fuzzy
 msgid "The :keyword:`while` statement"
-msgstr ""
+msgstr "L'instruction :keyword:`if`"
 
 #: reference/compound_stmts.rst:112
 msgid ""
@@ -126,8 +127,9 @@ msgid ""
 msgstr ""
 
 #: reference/compound_stmts.rst:137
+#, fuzzy
 msgid "The :keyword:`for` statement"
-msgstr ""
+msgstr "L'instruction :keyword:`if`"
 
 #: reference/compound_stmts.rst:150
 msgid ""
@@ -188,8 +190,9 @@ msgid ""
 msgstr ""
 
 #: reference/compound_stmts.rst:215
+#, fuzzy
 msgid "The :keyword:`try` statement"
-msgstr ""
+msgstr "L'instruction :keyword:`if`"
 
 #: reference/compound_stmts.rst:223
 msgid ""
@@ -313,8 +316,9 @@ msgid ""
 msgstr ""
 
 #: reference/compound_stmts.rst:349
+#, fuzzy
 msgid "The :keyword:`with` statement"
-msgstr ""
+msgstr "L'instruction :keyword:`if`"
 
 #: reference/compound_stmts.rst:353
 msgid ""
@@ -1371,8 +1375,9 @@ msgid ""
 msgstr ""
 
 #: reference/datamodel.rst:611
+#, fuzzy
 msgid "Built-in functions"
-msgstr ""
+msgstr "Fonctions Natives"
 
 #: reference/datamodel.rst:604
 msgid ""
@@ -6195,8 +6200,9 @@ msgid ""
 msgstr ""
 
 #: reference/simple_stmts.rst:484
+#, fuzzy
 msgid "The :keyword:`raise` statement"
-msgstr ""
+msgstr "L'instruction :keyword:`if`"
 
 #: reference/simple_stmts.rst:495
 msgid ""

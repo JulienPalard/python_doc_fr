@@ -439,8 +439,9 @@ msgid "division of int/int and long/long return an int or long (*default*)"
 msgstr ""
 
 #: ../Doc/using/cmdline.rst:246
+#, fuzzy
 msgid "``new``"
-msgstr ""
+msgstr "``news``"
 
 #: ../Doc/using/cmdline.rst:246
 msgid ""

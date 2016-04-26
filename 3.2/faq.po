@@ -661,6 +661,7 @@ msgid ""
 msgstr ""
 
 #: faq/design.rst:359
+#, fuzzy
 msgid ""
 "Functions are already first class objects in Python, and can be declared in "
 "a local scope.  Therefore the only advantage of using a lambda form instead "
@@ -669,6 +670,12 @@ msgid ""
 "object (which is exactly the same type of object that a lambda form yields) "
 "is assigned!"
 msgstr ""
+"Les fonctions sont déjà des objets de première classe en Python et peuvent "
+"être déclarées dans une portée locale. L'unique avantage d'utiliser une "
+"fonction lambda au lieu d'une fonction définie localement est que vous "
+"n'avez nullement besoin d'un nom pour la fonction -- Mais c'est juste une "
+"variable locale à laquelle est affecté l'objet fonction (qui est exactement "
+"le même type d'objet qui donne une expression lambda) !"
 
 #: faq/design.rst:367
 msgid "Can Python be compiled to machine code, C or some other language?"
@@ -680,6 +687,7 @@ msgid "Practical answer:"
 msgstr "Réponse concrète :"
 
 #: faq/design.rst:371
+#, fuzzy
 msgid ""
 "`Cython <http://cython.org/>`_ and `Pyrex <http://www.cosc.canterbury.ac.nz/"
 "~greg/python/Pyrex/>`_ compile a modified version of Python with optional "
@@ -688,6 +696,14 @@ msgid ""
 "performance. `Nuitka <http://www.nuitka.net/>`_ is an up-and-coming compiler "
 "of Python into C++ code, aiming to support the full Python language."
 msgstr ""
+"`Cython <http://cython.org/>`_ et `Pyrex <http://www.cosc.canterbury.ac.nz/"
+"greg.ewing/python/Pyrex/>`_ compilent une version modifiée de Python avec "
+"des annotations optionnelles en extensions C.  `Weave <http://docs.scipy.org/"
+"doc/scipy-dev/reference/tutorial/weave.html>`_ rend facile d'entremêler du "
+"code C et Python de diverses façons afin d'améliorer au mieux les "
+"performances. `Nuitka <http://www.nuitka.net/>`_ est un compilateur de "
+"Python en C++ plein d'avenir, dont le but est de gérer l'ensemble du langage "
+"Python."
 
 #: faq/design.rst:378
 msgid "Theoretical answer:"
@@ -708,6 +724,7 @@ msgstr ""
 "d'exécution de Python, même pour des opérations simples comme ``x + 1``."
 
 #: faq/design.rst:388
+#, fuzzy
 msgid ""
 "Several projects described in the Python newsgroup or at past `Python "
 "conferences <http://python.org/community/workshops/>`_ have shown that this "
@@ -718,6 +735,15 @@ msgid ""
 "proceedings from the `1997 Python conference <http://python.org/"
 "workshops/1997-10/proceedings/>`_ for more information.)"
 msgstr ""
+"Plusieurs projets décrits dans le forum de Python ou dans les anciennes "
+"`Conférences Python <https://www.python.org/community/workshops/>`_ ont "
+"montré que cette approche est réalisable, même si les améliorations "
+"atteintes restaient modestes (autour de ×2). Jython utilise la même "
+"stratégie pour compiler en *bytecode* Java. (Jim Hugunin a démontré qu'en "
+"combinaison avec une analyse de la totalité du programme, des améliorations "
+"de ×1000 sont possibles sur de petits programmes de démonstration. Voir le "
+"compte rendu de la  `Conférence de Python 1997 <http://legacy.python.org/"
+"workshops/1997-10/proceedings/>`_ pour plus d'informations.)"
 
 #: faq/design.rst:399
 msgid "How does Python manage memory?"
@@ -966,6 +992,7 @@ msgstr ""
 "la plupart des circonstances, et leur implémentation est plus simple."
 
 #: faq/design.rst:513
+#, fuzzy
 msgid ""
 "Dictionaries work by computing a hash code for each key stored in the "
 "dictionary using the :func:`hash` built-in function.  The hash code varies "
@@ -979,6 +1006,22 @@ msgid ""
 "the array as the ``.keys()`` and ``.items()`` do will output the "
 "dictionary's content in some arbitrary jumbled order."
 msgstr ""
+"Les dictionnaires fonctionnent en calculant un code de hachage pour chaque "
+"clé stockée dans le dictionnaire en utilisant la fonction :func:`hash`.  Le "
+"code de hachage varie grandement selon la clé et du nombre de processus "
+"utilisés ; Par exemple, la chaine de caractère \"Python\" pourrait avoir "
+"comme code de hachage une valeur allant jusqu'à-539294296 tandis que la "
+"chaine \"python\",qui se distingue de la première par un seul bit, pourrait "
+"avoir comme code de hachage une valeur allant jusqu'à 1142331976.  Le code "
+"de hachage est ensuite utilisé pour calculer un emplacement dans un tableau "
+"interne où la valeur est stockée.  Dans l'hypothèse où vous stockez les clés "
+"qui ont toutes des valeurs de hachage différentes, cela signifie que les "
+"dictionnaires parcourt le dictionnaire en un temps constant  -- O(1), en "
+"notation scientifique informatique - - pour récupérer une clé.  Cela "
+"signifie également qu'aucun ordre de tri des clés n'est maintenu, et lors du "
+"parcours du tableau, les ``.keys()`` et ``.items()`` afficheront le contenu "
+"du dictionnaire dans un certain ordre arbitraire qui peut changer à chaque "
+"appel d'un programme."
 
 #: faq/design.rst:526
 msgid "Why must dictionary keys be immutable?"

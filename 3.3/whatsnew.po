@@ -1703,8 +1703,9 @@ msgid ""
 msgstr ""
 
 #: ../Doc/whatsnew/2.1.rst:123 ../Doc/whatsnew/2.2.rst:927
+#, fuzzy
 msgid ":pep:`227` - Statically Nested Scopes"
-msgstr ""
+msgstr ":pep:`227`: *Statically Nested Scopes*"
 
 #: ../Doc/whatsnew/2.1.rst:124 ../Doc/whatsnew/2.2.rst:928
 msgid "Written and implemented by Jeremy Hylton."
@@ -1966,8 +1967,9 @@ msgid ""
 msgstr ""
 
 #: ../Doc/whatsnew/2.1.rst:295
+#, fuzzy
 msgid ":pep:`230` - Warning Framework"
-msgstr ""
+msgstr ":pep:`230` -- Gestion des alertes"
 
 #: ../Doc/whatsnew/2.1.rst:296
 msgid "Written and implemented by Guido van Rossum."
@@ -3410,8 +3412,9 @@ msgid ""
 msgstr ""
 
 #: ../Doc/whatsnew/2.2.rst:770
+#, fuzzy
 msgid ":pep:`238` - Changing the Division Operator"
-msgstr ""
+msgstr ":pep:`230` -- Gestion des alertes"
 
 #: ../Doc/whatsnew/2.2.rst:771
 msgid ""
@@ -6437,8 +6440,9 @@ msgid ":pep:`292` - Simpler String Substitutions"
 msgstr ""
 
 #: ../Doc/whatsnew/2.4.rst:212
+#, fuzzy
 msgid "Written and implemented  by Barry Warsaw."
-msgstr ""
+msgstr "Écrit et implémenté par Barry Warsaw."
 
 #: ../Doc/whatsnew/2.4.rst:218
 msgid "PEP 318: Decorators for Functions and Methods"
@@ -8365,8 +8369,9 @@ msgid ""
 msgstr ""
 
 #: ../Doc/whatsnew/2.5.rst:359
+#, fuzzy
 msgid ":pep:`338` - Executing modules as scripts"
-msgstr ""
+msgstr ":pep:`338` --  Exécuter des modules en tant que scripts"
 
 #: ../Doc/whatsnew/2.5.rst:360
 msgid "PEP written and  implemented by Nick Coghlan."
@@ -10895,8 +10900,9 @@ msgid "Describes how to write for Python's documentation."
 msgstr ""
 
 #: ../Doc/whatsnew/2.6.rst:239
+#, fuzzy
 msgid "`Sphinx <http://sphinx.pocoo.org/>`__"
-msgstr ""
+msgstr "`Sphinx <http://sphinx-doc.org/>`__"
 
 #: ../Doc/whatsnew/2.6.rst:239
 msgid "Documentation and code for the Sphinx toolchain."
@@ -11258,18 +11264,22 @@ msgid "``b``"
 msgstr "``b``"
 
 #: ../Doc/whatsnew/2.6.rst:810
+#, fuzzy
 msgid "Binary. Outputs the number in base 2."
-msgstr ""
+msgstr "Format binaire. Affiche le nombre en base 2."
 
 #: ../Doc/whatsnew/2.6.rst:811
 msgid "``c``"
 msgstr "``c``"
 
 #: ../Doc/whatsnew/2.6.rst:811
+#, fuzzy
 msgid ""
 "Character. Converts the integer to the corresponding Unicode character "
 "before printing."
 msgstr ""
+"Caractère. Convertit l'entier en le caractère unicode associé avant de "
+"l'afficher."
 
 #: ../Doc/whatsnew/2.6.rst:813
 msgid "``d``"
@@ -11292,10 +11302,13 @@ msgid "``x``"
 msgstr "``x``"
 
 #: ../Doc/whatsnew/2.6.rst:815
+#, fuzzy
 msgid ""
 "Hex format. Outputs the number in base 16, using lower-case letters for the "
 "digits above 9."
 msgstr ""
+"Format hexa(décimal). Affiche le nombre en base 16 en utilisant les lettres "
+"minuscules pour les chiffres au-dessus de 9."
 
 #: ../Doc/whatsnew/2.6.rst:817
 msgid "``e``"
@@ -11333,10 +11346,13 @@ msgid "``%``"
 msgstr ""
 
 #: ../Doc/whatsnew/2.6.rst:825
+#, fuzzy
 msgid ""
 "Percentage. Multiplies the number by 100 and displays in fixed ('f') format, "
 "followed by a percent sign."
 msgstr ""
+"Pourcentage. Multiplie le nombre par 100 et l'affiche en virgule fixe "
+"(``'f'``), suivi d'un symbole pourcent ``'%'``."
 
 #: ../Doc/whatsnew/2.6.rst:829
 msgid ""
@@ -11410,8 +11426,9 @@ msgid "*file*: the file object to which the output will be sent."
 msgstr ""
 
 #: ../Doc/whatsnew/2.6.rst:886
+#, fuzzy
 msgid ":pep:`3105` - Make print a function"
-msgstr ""
+msgstr ":pep:`3105`: *Make print a function*"
 
 #: ../Doc/whatsnew/2.6.rst:887
 msgid "PEP written by Georg Brandl."
@@ -11536,8 +11553,9 @@ msgid ""
 msgstr ""
 
 #: ../Doc/whatsnew/2.6.rst:1021
+#, fuzzy
 msgid ":pep:`3112` - Bytes literals in Python 3000"
-msgstr ""
+msgstr ":pep:`3112` : *Obtets littéraux en Python 3000*"
 
 #: ../Doc/whatsnew/2.6.rst:1022
 msgid "PEP written by Jason Orendorff; backported to 2.6 by Christian Heimes."
@@ -22312,7 +22330,7 @@ msgstr ""
 #: ../Doc/whatsnew/3.3.rst:199
 #, fuzzy
 msgid "(Contributed by Stefan Krah in :issue:`10181`)"
-msgstr "(Contribution par Antoine Pitrou; :issue:`3001`.)"
+msgstr "(Contribution par Stefan Krah; :issue:`10181`.)"
 
 #: ../Doc/whatsnew/3.3.rst:203
 msgid ":pep:`3118` - Revising the Buffer Protocol"
@@ -23015,7 +23033,7 @@ msgstr ""
 #: ../Doc/whatsnew/3.3.rst:784
 #, fuzzy
 msgid "(Contributed by Ezio Melotti in :issue:`12753`)"
-msgstr "(Contribution par Antoine Pitrou; :issue:`3001`.)"
+msgstr "(Contribution par Ezio Melotti; :issue:`12753`.)"
 
 #: ../Doc/whatsnew/3.3.rst:786
 msgid "Unicode database updated to UCD version 6.1.0"
@@ -23038,7 +23056,7 @@ msgstr ""
 #: ../Doc/whatsnew/3.3.rst:796
 #, fuzzy
 msgid "(Contributed by Petri Lehtinen in :issue:`12170`)"
-msgstr "(Contribution par Antoine Pitrou; :issue:`3001`.)"
+msgstr "(Contribution par Petri Lehtinen; :issue:`12170`.)"
 
 #: ../Doc/whatsnew/3.3.rst:798
 msgid ""
@@ -23190,7 +23208,7 @@ msgstr ""
 #: ../Doc/whatsnew/3.3.rst:894
 #, fuzzy
 msgid "(Contributed by Google and Peter Moody in :pep:`3144`)"
-msgstr "(Contribution par Antoine Pitrou; :issue:`3001`.)"
+msgstr "(Contribution par Google et Peter Moody; :pep:`3144`)"
 
 #: ../Doc/whatsnew/3.3.rst:897
 msgid "lzma"
@@ -23240,7 +23258,7 @@ msgstr ""
 #: ../Doc/whatsnew/3.3.rst:924
 #, fuzzy
 msgid "(Contributed by Darren Dale in :issue:`11610`)"
-msgstr "(Contribution par Antoine Pitrou; :issue:`3001`.)"
+msgstr "(Contribution par Darren Dale; :issue:`11610`.)"
 
 #: ../Doc/whatsnew/3.3.rst:926
 msgid ""
@@ -23261,7 +23279,7 @@ msgstr ""
 #: ../Doc/whatsnew/3.3.rst:936
 #, fuzzy
 msgid "(Contributed by Oren Tirosh and Hirokazu Yamamoto in :issue:`1172711`)"
-msgstr "(Contribution par Antoine Pitrou; :issue:`3001`.)"
+msgstr "(Contribution par Oren Tirosh et Hirokazu Yamamoto; :issue:`1172711`.)"
 
 #: ../Doc/whatsnew/3.3.rst:940
 msgid "base64"
@@ -23311,7 +23329,7 @@ msgstr ""
 #: ../Doc/whatsnew/3.3.rst:967
 #, fuzzy
 msgid "(Contributed by Nadeem Vawda in :issue:`5863`)"
-msgstr "(Contribution par Antoine Pitrou; :issue:`3001`.)"
+msgstr "(Contribution par Nadeem Vawda; :issue:`5863`.)"
 
 #: ../Doc/whatsnew/3.3.rst:969
 msgid ""
@@ -23324,7 +23342,7 @@ msgstr ""
 #: ../Doc/whatsnew/3.3.rst:974
 #, fuzzy
 msgid "(Contributed by Nir Aides in :issue:`1625`)"
-msgstr "(Contribution par Antoine Pitrou; :issue:`3001`.)"
+msgstr "(Contribution par Nir Aides; :issue:`1625`.)"
 
 #: ../Doc/whatsnew/3.3.rst:976
 msgid ""
@@ -23472,7 +23490,7 @@ msgstr ""
 #: ../Doc/whatsnew/3.3.rst:1072
 #, fuzzy
 msgid "(Contributed by Iñigo Serna in :issue:`6755`)"
-msgstr "(Contribution par Antoine Pitrou; :issue:`3001`.)"
+msgstr "(Contribution par Iñigo Serna; :issue:`6755`.)"
 
 #: ../Doc/whatsnew/3.3.rst:1075
 msgid "datetime"
@@ -24037,7 +24055,7 @@ msgstr ""
 #: ../Doc/whatsnew/3.3.rst:1454
 #, fuzzy
 msgid "(Contributed by Sijin Joseph in :issue:`8808`)"
-msgstr "(Contribution par Antoine Pitrou; :issue:`3001`.)"
+msgstr "(Contribution par Sijin Joseph; :issue:`8808`.)"
 
 #: ../Doc/whatsnew/3.3.rst:1460
 msgid ""
@@ -24050,7 +24068,7 @@ msgstr ""
 #: ../Doc/whatsnew/3.3.rst:1465
 #, fuzzy
 msgid "(Contributed by Meador Inge and Nick Coghlan in :issue:`13062`)"
-msgstr "(Contribution par Antoine Pitrou; :issue:`3001`.)"
+msgstr "(Contribution par Meador Inge et Nick Coghlan; :issue:`13062`.)"
 
 #: ../Doc/whatsnew/3.3.rst:1467
 msgid ""
@@ -24063,7 +24081,7 @@ msgstr ""
 #: ../Doc/whatsnew/3.3.rst:1472
 #, fuzzy
 msgid "(Contributed by Meador Inge in :issue:`15153`)"
-msgstr "(Contribution par Antoine Pitrou; :issue:`3001`.)"
+msgstr "(Contribution par Meador Inge; :issue:`15153`.)"
 
 #: ../Doc/whatsnew/3.3.rst:1477
 msgid ""
@@ -24075,7 +24093,7 @@ msgstr ""
 #: ../Doc/whatsnew/3.3.rst:1481
 #, fuzzy
 msgid "(Contributed by David Townshend in :issue:`12760`)"
-msgstr "(Contribution par Antoine Pitrou; :issue:`3001`.)"
+msgstr "(Contribution par David Townshend; :issue:`12760`.)"
 
 #: ../Doc/whatsnew/3.3.rst:1483
 msgid ""
@@ -24186,7 +24204,7 @@ msgstr ""
 #: ../Doc/whatsnew/3.3.rst:1570
 #, fuzzy
 msgid "(Contributed by Giampaolo Rodolà in :issue:`9795`)"
-msgstr "(Contribution par Antoine Pitrou; :issue:`3001`.)"
+msgstr "(Contribution par Giampaolo Rodolà; :issue:`9795`.)"
 
 #: ../Doc/whatsnew/3.3.rst:1576
 msgid ""
@@ -24764,7 +24782,7 @@ msgstr ""
 #: ../Doc/whatsnew/3.3.rst:1932
 #, fuzzy
 msgid "(Contributed by Victor Stinner in :issue:`12049`)"
-msgstr "(Contribution par Antoine Pitrou; :issue:`3001`.)"
+msgstr "(Contribution par Victor Stinner; :issue:`12049`.)"
 
 #: ../Doc/whatsnew/3.3.rst:1934
 msgid ""
@@ -24844,7 +24862,7 @@ msgstr ""
 #: ../Doc/whatsnew/3.3.rst:1979
 #, fuzzy
 msgid "(Contributed by Giampaolo Rodolà in :issue:`14807`)"
-msgstr "(Contribution par Antoine Pitrou; :issue:`3001`.)"
+msgstr "(Contribution par Giampaolo Rodolà; :issue:`14807`.)"
 
 #: ../Doc/whatsnew/3.3.rst:1983
 msgid "struct"
@@ -28549,41 +28567,61 @@ msgid ""
 msgstr ""
 
 #: ../../../Misc/NEWS:1370
+#, fuzzy
 msgid ""
 "`Issue #18439 <http://bugs.python.org/18439>`__: Make patchcheck work on "
 "Windows for ACKS, NEWS."
 msgstr ""
+"`Ticket #18439 <https://bugs.python.org/18439>`__ : Permet à *patchcheck* de "
+"fonctionner sous Windows pour *ACKS* et *NEWS*."
 
 #: ../../../Misc/NEWS:1372
+#, fuzzy
 msgid ""
 "`Issue #18448 <http://bugs.python.org/18448>`__: Fix a typo in Tools/demo/"
 "eiffel.py."
 msgstr ""
+"`Ticket #18448 <https://bugs.python.org/18448>`__ : Corrige une coquille "
+"dans Tools/demo/eiffel.py."
 
 #: ../../../Misc/NEWS:1374
+#, fuzzy
 msgid ""
 "`Issue #18457 <http://bugs.python.org/18457>`__: Fixed saving of formulas "
 "and complex numbers in Tools/demo/ss1.py."
 msgstr ""
+"`Issue #18457 <https://bugs.python.org/18457>`__ : Corrige l’enregistrement "
+"des formules et nombres complexes dans Tools/demo/ss1.py."
 
 #: ../../../Misc/NEWS:1377
+#, fuzzy
 msgid ""
 "`Issue #18449 <http://bugs.python.org/18449>`__: Make Tools/demo/ss1.py work "
 "again on Python 3.  Patch by Févry Thibault."
 msgstr ""
+"`Ticket #18449 <https://bugs.python.org/18449>`__ : Permet à Tools/demo/ss1."
+"py de fonctionner à nouveau correctement sous Python 3. Contribution par "
+"Févry Thibault."
 
 #: ../../../Misc/NEWS:1380
+#, fuzzy
 msgid ""
 "`Issue #15239 <http://bugs.python.org/15239>`__: Make mkstringprep.py work "
 "again on Python 3."
 msgstr ""
+"`Ticket #15239 <https://bugs.python.org/15239>`__ : Permet à mkstringprep.py "
+"de fonctionner à nouveau correctement sous Python 3."
 
 #: ../../../Misc/NEWS:1382
+#, fuzzy
 msgid ""
 "`Issue #12990 <http://bugs.python.org/12990>`__: The \"Python Launcher\" on "
 "OSX could not launch python scripts that have paths that include wide "
 "characters."
 msgstr ""
+"`Ticket #12990 <https://bugs.python.org/12990>`__ : Le lanceur Python sous "
+"Mac OS X ne pouvait pas lancer des scripts Python dont le chemin inclut des "
+"caractères étendus."
 
 #: ../../../Misc/NEWS:1388
 msgid ""
@@ -28640,8 +28678,9 @@ msgid ""
 msgstr ""
 
 #: ../../../Misc/NEWS:1417
+#, fuzzy
 msgid "Python 3.3.2"
-msgstr ""
+msgstr "Python 3.2"
 
 #: ../../../Misc/NEWS:1419
 msgid "*Release date: 13-May-2013*"
@@ -30840,10 +30879,13 @@ msgid ""
 msgstr ""
 
 #: ../../../Misc/NEWS:2465
+#, fuzzy
 msgid ""
 "`Issue #15557 <http://bugs.python.org/15557>`__: Add a test suite for the "
 "`webbrowser` module, thanks to Anton Barkovsky."
 msgstr ""
+"`Ticket #15557 <https://bugs.python.org/15557>`__ : Ajoute une suite de "
+"tests pour le module webbrowser, grâce à Anton Barkovsky."
 
 #: ../../../Misc/NEWS:2468
 msgid ""
@@ -30879,10 +30921,13 @@ msgid ""
 msgstr ""
 
 #: ../../../Misc/NEWS:2487
+#, fuzzy
 msgid ""
 "`Issue #3718 <http://bugs.python.org/3718>`__: Use AC_ARG_VAR to set MACHDEP "
 "in configure.ac."
 msgstr ""
+"`Ticket #3718 <https://bugs.python.org/3718>`__ : Utilise *AC_ARG_VAR* pour "
+"assigner *MACHDEP* dans configure.ac."
 
 #: ../../../Misc/NEWS:2489
 msgid ""
@@ -31146,50 +31191,76 @@ msgid ""
 msgstr ""
 
 #: ../../../Misc/NEWS:2608
+#, fuzzy
 msgid ""
 "`Issue #15533 <http://bugs.python.org/15533>`__: Clarify docs and add tests "
 "for `subprocess.Popen()`'s cwd argument."
 msgstr ""
+"`Ticket #15533 <https://bugs.python.org/15533>`__ : Clarifie la "
+"documentation et ajoute des tests pour l’argument *cwd* de `subprocess."
+"Popen()`."
 
 #: ../../../Misc/NEWS:2611
+#, fuzzy
 msgid ""
 "`Issue #15979 <http://bugs.python.org/15979>`__: Improve timeit "
 "documentation."
 msgstr ""
+"`Ticket #15979 <https://bugs.python.org/15979>`__ : Améliore la traduction "
+"de *timeit*."
 
 #: ../../../Misc/NEWS:2613
+#, fuzzy
 msgid ""
 "`Issue #16036 <http://bugs.python.org/16036>`__: Improve documentation of "
 "built-in `int()`'s signature and arguments."
 msgstr ""
+"`Ticket #16036 <https://bugs.python.org/16036>`__ : Améliore la "
+"documentation de la signature et des arguments de la primitive `int()`."
 
 #: ../../../Misc/NEWS:2616
+#, fuzzy
 msgid ""
 "`Issue #15935 <http://bugs.python.org/15935>`__: Clarification of `argparse` "
 "docs, re: add_argument() type and default arguments.  Patch contributed by "
 "Chris Jerdonek."
 msgstr ""
+"`Ticket #15935 <https://bugs.python.org/15935>`__ : Clarification de la "
+"documentation d’`argparse` à propos du type et des arguments par défaut "
+"d’`add_argument()`. Contribution par Chris Jerdonek."
 
 #: ../../../Misc/NEWS:2619
+#, fuzzy
 msgid ""
 "`Issue #11964 <http://bugs.python.org/11964>`__: Document a change in v3.2 "
 "to the behavior of the indent parameter of json encoding operations."
 msgstr ""
+"`Ticket #11964 <https://bugs.python.org/11964>`__ : Documente un changement "
+"dans la v3.2 à propos du paramètre *indent* des opérations d’encodage en "
+"JSON."
 
 #: ../../../Misc/NEWS:2622
+#, fuzzy
 msgid ""
 "`Issue #15116 <http://bugs.python.org/15116>`__: Remove references to "
 "appscript as it is no longer being supported."
 msgstr ""
+"`Ticket #15116 <https://bugs.python.org/15116>`__ : Supprime les références "
+"à *appscript* car il n’est plus supporté."
 
 #: ../../../Misc/NEWS:2628
+#, fuzzy
 msgid ""
 "`Issue #17156 <http://bugs.python.org/17156>`__: pygettext.py now uses an "
 "encoding of source file and correctly writes and escapes non-ascii "
 "characters."
 msgstr ""
+"`Ticket #17156 <https://bugs.python.org/17156>`__ : pygettext.py détecte "
+"maintenant l’encodage des fichiers sources et écrit et échappe correctement "
+"les caractères non-ASCII."
 
 #: ../../../Misc/NEWS:2631
+#, fuzzy
 msgid ""
 "`Issue #15539 <http://bugs.python.org/15539>`__: Fix a number of bugs in "
 "Tools/scripts/pindent.py.  Now pindent.py works with a \"with\" statement.  "
@@ -31197,12 +31268,21 @@ msgid ""
 "with continued lines broken after \"class\" or \"def\" keywords and with "
 "continuations at the start of line."
 msgstr ""
+"`Ticket #15539 <https://bugs.python.org/15539>`__ : Corrige un certain "
+"nombre de bugs dans Tools/scripts/pindent.py. pindent.py marche maintenant "
+"avec une instruction \"with\". pindent.py ne produit plus de la mauvaise "
+"indentation. pindent.py marche maintenant avec des instructions continuées "
+"sur plusieurs lignes après les mots-clefs \"class\" ou \"def\" et avec des "
+"continuations au début de la ligne."
 
 #: ../../../Misc/NEWS:2636
+#, fuzzy
 msgid ""
 "`Issue #15378 <http://bugs.python.org/15378>`__: Fix Tools/unicode/"
 "comparecodecs.py.  Patch by Serhiy Storchaka."
 msgstr ""
+"`Ticket #15378 <https://bugs.python.org/15378>`__ : Corrige Tools/unicode/"
+"comparecodecs.py.  Contribution par Serhiy Storchaka."
 
 #: ../../../Misc/NEWS:2638
 msgid ""
@@ -31211,22 +31291,30 @@ msgid ""
 msgstr ""
 
 #: ../../../Misc/NEWS:2640
+#, fuzzy
 msgid ""
 "`Issue #16549 <http://bugs.python.org/16549>`__: Make json.tool work again "
 "on Python 3 and add tests. Initial patch by Berker Peksag and Serhiy "
 "Storchaka."
 msgstr ""
+"`Ticket #16549 <https://bugs.python.org/16549>`__ : Rend json.tool de "
+"nouveau fonctionnel sous Python 3 et ajoute des tests. Contribution initiale "
+"par Berker Peksag et Serhiy Storchaka."
 
 #: ../../../Misc/NEWS:2643
+#, fuzzy
 msgid ""
 "`Issue #13301 <http://bugs.python.org/13301>`__: use ast.literal_eval() "
 "instead of eval() in Tools/i18n/msgfmt.py Patch by Serhiy Storchaka."
 msgstr ""
+"`Ticket #13301 <https://bugs.python.org/13301>`__ : ast.literal_eval() est "
+"utilisé à la place de eval() dans Tools/i18n/msgfmt.py. Correction par "
+"Serhiy Storchaka."
 
 #: ../../../Misc/NEWS:2648
 #, fuzzy
 msgid "Python 3.3.0"
-msgstr "Python 3.0"
+msgstr "Python 3.4.0"
 
 #: ../../../Misc/NEWS:2650
 msgid "*Release date: 29-Sep-2012*"
@@ -31687,8 +31775,9 @@ msgid ""
 msgstr ""
 
 #: ../../../Misc/NEWS:2919
+#, fuzzy
 msgid "Python 3.3.0 Beta 2"
-msgstr ""
+msgstr "Python 3.4.0 Beta 2"
 
 #: ../../../Misc/NEWS:2921
 msgid "*Release date: 12-Aug-2012*"
@@ -32433,8 +32522,9 @@ msgid ""
 msgstr ""
 
 #: ../../../Misc/NEWS:3285
+#, fuzzy
 msgid "Python 3.3.0 Beta 1"
-msgstr ""
+msgstr "Python 3.4.0 Beta 1"
 
 #: ../../../Misc/NEWS:3287
 msgid "*Release date: 27-Jun-2012*"
@@ -33081,8 +33171,9 @@ msgid ""
 msgstr ""
 
 #: ../../../Misc/NEWS:3617
+#, fuzzy
 msgid "Python 3.3.0 Alpha 4"
-msgstr ""
+msgstr "Python 3.4.0 Alpha 4"
 
 #: ../../../Misc/NEWS:3619
 msgid "*Release date: 31-May-2012*"
@@ -33623,8 +33714,9 @@ msgid ""
 msgstr ""
 
 #: ../../../Misc/NEWS:3892
+#, fuzzy
 msgid "Python 3.3.0 Alpha 3"
-msgstr ""
+msgstr "Python 3.4.0 Alpha 3"
 
 #: ../../../Misc/NEWS:3894
 msgid "*Release date: 01-May-2012*"
@@ -34120,8 +34212,9 @@ msgid ""
 msgstr ""
 
 #: ../../../Misc/NEWS:4142
+#, fuzzy
 msgid "Python 3.3.0 Alpha 2"
-msgstr ""
+msgstr "Python 3.4.0 Alpha 2"
 
 #: ../../../Misc/NEWS:4144
 msgid "*Release date: 01-Apr-2012*"

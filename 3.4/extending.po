@@ -2138,10 +2138,13 @@ msgid ""
 msgstr ""
 
 #: ../Doc/extending/index.rst:38
+#, fuzzy
 msgid ""
 "`Python Packaging User Guide: Binary Extensions <https://packaging.python."
 "org/en/latest/extensions.html>`_"
 msgstr ""
+"`Python Packaging User Guide: Binary Extensions <https://packaging.python."
+"org/en/latest/extensions.html>`__"
 
 #: ../Doc/extending/index.rst:36
 msgid ""

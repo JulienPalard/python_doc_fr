@@ -1064,8 +1064,9 @@ msgid ""
 msgstr ""
 
 #: library/abc.rst:26
+#, fuzzy
 msgid "This module provides the following class:"
-msgstr ""
+msgstr "Le module fournit les classes suivantes :"
 
 #: library/abc.rst:30
 msgid "Metaclass for defining Abstract Base Classes (ABCs)."
@@ -7394,26 +7395,37 @@ msgid "Hyperbolic functions"
 msgstr "Fonctions hyperboliques"
 
 #: library/cmath.rst:152
+#, fuzzy
 msgid ""
 "Return the hyperbolic arc cosine of *x*. There is one branch cut, extending "
 "left from 1 along the real axis to -∞, continuous from above."
 msgstr ""
+"Retourne l'arc cosinus hyperbolique de *x*. Il y a une coupure, allant de 1 "
+"sur l'axe réel vers -∞, continue par au-dessus."
 
 #: library/cmath.rst:158
+#, fuzzy
 msgid ""
 "Return the hyperbolic arc sine of *x*. There are two branch cuts: One "
 "extends from ``1j`` along the imaginary axis to ``∞j``, continuous from the "
 "right.  The other extends from ``-1j`` along the imaginary axis to ``-∞j``, "
 "continuous from the left."
 msgstr ""
+"Retourne l'arc sinus hyperbolique de *x*. Il y a deux coupures : une allant "
+"de ``1j`` sur l'axe imaginaire vers ``∞j``, continue par la droite ; l'autre "
+"allant de ``-1j`` sur l'axe imaginaire vers ``∞j``, continue par la gauche."
 
 #: library/cmath.rst:166
+#, fuzzy
 msgid ""
 "Return the hyperbolic arc tangent of *x*. There are two branch cuts: One "
 "extends from ``1`` along the real axis to ``∞``, continuous from below. The "
 "other extends from ``-1`` along the real axis to ``-∞``, continuous from "
 "above."
 msgstr ""
+"Retourne l'arc tangente hyperbolique de *x*. Il y a deux coupures : une "
+"allant de ``1`` sur l'axe réel allant vers ``∞``, continue par en-dessous ; "
+"l'autre allant de ``-1`` sur l'axe réel vers ``-∞``, continue par au-dessus."
 
 #: library/cmath.rst:174 library/math.rst:300
 msgid "Return the hyperbolic cosine of *x*."
@@ -7519,8 +7531,9 @@ msgid ":mod:`cmd` --- Support for line-oriented command interpreters"
 msgstr ""
 
 #: library/cmd.rst:8
+#, fuzzy
 msgid "**Source code:** :source:`Lib/cmd.py`"
-msgstr ""
+msgstr "**Code source :** :source:`Lib/code.py`"
 
 #: library/cmd.rst:12
 msgid ""
@@ -9116,8 +9129,9 @@ msgid ""
 msgstr ""
 
 #: library/codecs.rst:848
+#, fuzzy
 msgid "Range"
-msgstr ""
+msgstr "*Ranges*"
 
 #: library/codecs.rst:848
 msgid "Encoding"
@@ -10187,8 +10201,9 @@ msgid "base64_codec"
 msgstr ""
 
 #: library/codecs.rst:1170
+#, fuzzy
 msgid "base64, base-64"
-msgstr ""
+msgstr "base64, base_64"
 
 #: library/codecs.rst:1170
 msgid "Convert operand to MIME base64"
@@ -13435,8 +13450,9 @@ msgid ""
 msgstr ""
 
 #: library/contextlib.rst:7
+#, fuzzy
 msgid "**Source code:** :source:`Lib/contextlib.py`"
-msgstr ""
+msgstr "**Code source :** :source:`Lib/ftplib.py`"
 
 #: library/contextlib.rst:11
 msgid ""
@@ -18572,8 +18588,9 @@ msgstr "``KEY_OPTIONS``"
 #: library/curses.rst:1368 library/tkinter.ttk.rst:300
 #: library/tkinter.ttk.rst:379 library/tkinter.ttk.rst:565
 #: library/tkinter.ttk.rst:634 library/tkinter.ttk.rst:700
+#, fuzzy
 msgid "Options"
-msgstr ""
+msgstr "Option"
 
 #: library/curses.rst:1370
 msgid "``KEY_PREVIOUS``"
@@ -19738,16 +19755,18 @@ msgid "Alias for :const:`TAB`: \"Horizontal tab\""
 msgstr ""
 
 #: library/curses.ascii.rst:39
+#, fuzzy
 msgid ":const:`LF`"
-msgstr ""
+msgstr ":const:`FS`"
 
 #: library/curses.ascii.rst:39
 msgid "Line feed"
 msgstr ""
 
 #: library/curses.ascii.rst:41
+#, fuzzy
 msgid ":const:`NL`"
-msgstr ""
+msgstr ":const:`NUL`"
 
 #: library/curses.ascii.rst:41
 msgid "Alias for :const:`LF`: \"New line\""
@@ -19774,8 +19793,9 @@ msgid ":const:`CR`"
 msgstr ":const:`CR`"
 
 #: library/curses.ascii.rst:47
+#, fuzzy
 msgid "Carriage return"
-msgstr ""
+msgstr "Retour Chariot"
 
 #: library/curses.ascii.rst:49
 msgid ":const:`SO`"
@@ -19890,16 +19910,18 @@ msgid ":const:`FS`"
 msgstr ":const:`FS`"
 
 #: library/curses.ascii.rst:77
+#, fuzzy
 msgid "File separator"
-msgstr ""
+msgstr "Séparateur de Fichiers"
 
 #: library/curses.ascii.rst:79
 msgid ":const:`GS`"
 msgstr ":const:`GS`"
 
 #: library/curses.ascii.rst:79
+#, fuzzy
 msgid "Group separator"
-msgstr ""
+msgstr "Séparateur de groupes"
 
 #: library/curses.ascii.rst:81
 msgid ":const:`RS`"
@@ -22653,8 +22675,9 @@ msgid ""
 msgstr ""
 
 #: library/dbm.rst:297 library/select.rst:16
+#, fuzzy
 msgid "The module defines the following:"
-msgstr ""
+msgstr "Le module définit le type suivant :"
 
 #: library/dbm.rst:302
 msgid ""
@@ -23807,8 +23830,9 @@ msgid ""
 msgstr ""
 
 #: library/decimal.rst:1058
+#, fuzzy
 msgid "Returns the absolute value of *x*."
-msgstr ""
+msgstr "Retourne la valeur absolue de *x*."
 
 #: library/decimal.rst:1063
 msgid "Return the sum of *x* and *y*."
@@ -25252,8 +25276,9 @@ msgid ":mod:`dis` --- Disassembler for Python bytecode"
 msgstr ""
 
 #: library/dis.rst:7
+#, fuzzy
 msgid "**Source code:** :source:`Lib/dis.py`"
-msgstr ""
+msgstr "**Code source :** :source:`Lib/csv.py`"
 
 #: library/dis.rst:11
 msgid ""
@@ -28264,8 +28289,9 @@ msgid "Python 2.4"
 msgstr ""
 
 #: library/email.rst:91 library/email.rst:93
+#, fuzzy
 msgid "Python 2.3 to 2.5"
-msgstr ""
+msgstr "Python 2.1 à 2.5"
 
 #: library/email.rst:93
 msgid ":const:`4.0`"
@@ -31284,8 +31310,9 @@ msgid "Is a directory"
 msgstr ""
 
 #: library/errno.rst:134
+#, fuzzy
 msgid "Invalid argument"
-msgstr ""
+msgstr "Arguments invalides"
 
 #: library/errno.rst:139
 msgid "File table overflow"
@@ -32369,8 +32396,9 @@ msgid ":mod:`filecmp` --- File and Directory Comparisons"
 msgstr ""
 
 #: library/filecmp.rst:8
+#, fuzzy
 msgid "**Source code:** :source:`Lib/filecmp.py`"
-msgstr ""
+msgstr "**Code source :** :source:`Lib/fileinput.py`"
 
 #: library/filecmp.rst:12
 msgid ""
@@ -33585,8 +33613,9 @@ msgid "Here's a sample session using the :mod:`ftplib` module::"
 msgstr ""
 
 #: library/ftplib.rst:41 library/gzip.rst:24 library/zipfile.rst:26
+#, fuzzy
 msgid "The module defines the following items:"
-msgstr ""
+msgstr "Le module définit le type suivant :"
 
 #: library/ftplib.rst:45
 msgid ""
@@ -34151,8 +34180,9 @@ msgid "|func-frozenset|_"
 msgstr "|func-frozenset|_"
 
 #: library/functions.rst:22
+#, fuzzy
 msgid ":func:`list`"
-msgstr ""
+msgstr ":func:`listen`"
 
 #: library/functions.rst:22
 msgid ":func:`range`"
@@ -34246,16 +34276,22 @@ msgstr ""
 "donné."
 
 #: library/functions.rst:47
+#, fuzzy
 msgid ""
 "Return True if all elements of the *iterable* are true (or if the iterable "
 "is empty).  Equivalent to::"
 msgstr ""
+"Donne ``True`` si tous les éléments de *iterable* sont vrais (ou s'il est "
+"vide), équivaut à : ::"
 
 #: library/functions.rst:59
+#, fuzzy
 msgid ""
 "Return True if any element of the *iterable* is true.  If the iterable is "
 "empty, return False.  Equivalent to::"
 msgstr ""
+"Donne ``True`` si au moins un élément de *iterable* est vrai. Faux est aussi "
+"donné dans le cas où *iterable* est vide, équivaut à : ::"
 
 #: library/functions.rst:71
 msgid ""
@@ -34291,12 +34327,18 @@ msgid ""
 msgstr ""
 
 #: library/functions.rst:98
+#, fuzzy
 msgid ""
 "Return a new array of bytes.  The :class:`bytearray` type is a mutable "
 "sequence of integers in the range 0 <= x < 256.  It has most of the usual "
 "methods of mutable sequences, described in :ref:`typesseq-mutable`, as well "
 "as most methods that the :class:`bytes` type has, see :ref:`bytes-methods`."
 msgstr ""
+"Donne un nouveau tableau d'octets. La classe :class:`bytearray` est une "
+"séquence mutable de nombre entiers dans l'intervalle 0 <= x < 256. Il "
+"possède la plupart des méthodes des séquences variables, décrites dans :ref:"
+"`typesseq-mutable`, ainsi que la plupart des méthodes de la classe :class:"
+"`bytes`, voir :ref:`bytes-methods`."
 
 #: library/functions.rst:103
 msgid ""
@@ -34461,12 +34503,17 @@ msgstr ""
 "documentation sur la hiérarchie des types standards dans :ref:`types`."
 
 #: library/functions.rst:189
+#, fuzzy
 msgid ""
 "Compile the *source* into a code or AST object.  Code objects can be "
 "executed by :func:`exec` or :func:`eval`.  *source* can either be a string "
 "or an AST object.  Refer to the :mod:`ast` module documentation for "
 "information on how to work with AST objects."
 msgstr ""
+"Compile *source* en un objet code ou objet AST. Les objets code peuvent être "
+"exécutés par :func:`exec` ou :func:`eval`. *source* peut soit être une "
+"chaîne, un objet *bytes*, ou un objet AST. Consultez la documentation du "
+"module :mod:`ast` pour des informations sur la manipulation d'objets AST."
 
 #: library/functions.rst:194
 msgid ""
@@ -34493,6 +34540,7 @@ msgstr ""
 "``None`` seront affichés)."
 
 #: library/functions.rst:204
+#, fuzzy
 msgid ""
 "The optional arguments *flags* and *dont_inherit* control which future "
 "statements (see :pep:`236`) affect the compilation of *source*.  If neither "
@@ -34504,6 +34552,16 @@ msgid ""
 "then the *flags* argument is it -- the future statements in effect around "
 "the call to compile are ignored."
 msgstr ""
+"Les arguments optionnels *flags* et *dont_inherit* contrôlent quelle "
+"instructions *future* (voir :pep:`236`) affecte la compilation de *source*. "
+"Si aucun des deux n'est présent (ou que les deux sont à 0) le code est "
+"compilé avec les mêmes instructions *future* que le code appelant :func:"
+"`compile`. Si l'argument *flags* est fourni mais que *dont_inherit* ne l'est "
+"pas (ou vaut 0), alors les instructions *futures* utilisées seront celles "
+"spécifiées par *flags* en plus de celles qui auraient été utilisées. Si "
+"*dont_inherit* est un entier différent de zéro, *flags* est utilisé seul -- "
+"les instructions futures déclarées autour de l'appel à *compile* sont "
+"ignorées."
 
 #: library/functions.rst:214
 msgid ""
@@ -35081,12 +35139,18 @@ msgstr ""
 "exception :exc:`AttributeError` à été levée.)"
 
 #: library/functions.rst:579
+#, fuzzy
 msgid ""
 "Return the hash value of the object (if it has one).  Hash values are "
 "integers. They are used to quickly compare dictionary keys during a "
 "dictionary lookup. Numeric values that compare equal have the same hash "
 "value (even if they are of different types, as is the case for 1 and 1.0)."
 msgstr ""
+"Donne la valeur de *hash* d'un objet (s'il en a une). Les valeurs de *hash* "
+"sont des entiers. Elles sont utilisées pour comparer rapidement des clefs de "
+"dictionnaire lors de leur recherche. Les valeurs numériques égales ont le "
+"même *hash* (même si leurs types sont différents, comme pour ``1`` et "
+"``1.0``)."
 
 #: library/functions.rst:587
 msgid ""
@@ -35112,11 +35176,15 @@ msgstr ""
 "`site`."
 
 #: library/functions.rst:599
+#, fuzzy
 msgid ""
 "Convert an integer number to a hexadecimal string. The result is a valid "
 "Python expression.  If *x* is not a Python :class:`int` object, it has to "
 "define an :meth:`__index__` method that returns an integer."
 msgstr ""
+"Convertit un entier en sa représentation octale dans une chaîne. Le résultat "
+"est une expression Python valide. Si *x* n'est pas un objet :class:`int` de "
+"Python, il doit définir une méthode :meth:`__index__` qui donne un entier."
 
 #: library/functions.rst:605
 msgid ""
@@ -35249,11 +35317,16 @@ msgstr ""
 "est donnée."
 
 #: library/functions.rst:694
+#, fuzzy
 msgid ""
 "One useful application of the second form of :func:`iter` is to read lines "
 "of a file until a certain line is reached.  The following example reads a "
 "file until the :meth:`readline` method returns an empty string::"
 msgstr ""
+"Une autre application utile de la deuxième forme de :func:`iter` est de lire "
+"les lignes d'un fichier jusqu'à ce qu'un certaine ligne soit atteinte. "
+"L'exemple suivant lis un fichier jusqu'à ce que :meth:`~io.TextIOBase."
+"readline` donne une ligne vide : ::"
 
 #: library/functions.rst:705
 msgid ""
@@ -35404,10 +35477,14 @@ msgstr ""
 "de classes en Python. Cette fonction n'accepte aucun argument."
 
 #: library/functions.rst:803
+#, fuzzy
 msgid ""
 ":class:`object` does *not* have a :attr:`__dict__`, so you can't assign "
 "arbitrary attributes to an instance of the :class:`object` class."
 msgstr ""
+":class:`object` n'a *pas* d'attribut :attr:`~object.__dict__`, vous ne "
+"pouvez donc pas assigner d'attributs arbitraire à une instance d':class:"
+"`object`."
 
 #: library/functions.rst:809
 msgid ""
@@ -35420,10 +35497,13 @@ msgstr ""
 "Python, il doit définir une méthode :meth:`__index__` qui donne un entier."
 
 #: library/functions.rst:819
+#, fuzzy
 msgid ""
 "Open *file* and return a corresponding :term:`file object`.  If the file "
 "cannot be opened, an :exc:`IOError` is raised."
 msgstr ""
+"Ouvre *file* et donne un :term:`file object` correspondant. Si le fichier ne "
+"peut pas être ouvert, une :exc:`OSError` est levée."
 
 #: library/functions.rst:822
 msgid ""
@@ -35440,6 +35520,7 @@ msgstr ""
 "est fourni et ``False``.)"
 
 #: library/functions.rst:828
+#, fuzzy
 msgid ""
 "*mode* is an optional string that specifies the mode in which the file is "
 "opened.  It defaults to ``'r'`` which means open for reading in text mode. "
@@ -35450,6 +35531,18 @@ msgid ""
 "encoding used is platform dependent. (For reading and writing raw bytes use "
 "binary mode and leave *encoding* unspecified.)  The available modes are:"
 msgstr ""
+"*mode* est une chaîne optionnelle permettant de spécifier dans quel mode le "
+"fichier est ouvert. Par défaut, *mode* vaut ``'r'`` qui signifie \"ouvrir en "
+"lecture pour du texte\". ``'w'`` est aussi une valeur classique, permettant "
+"d'écrire (vidant le fichier s'il existe), ainsi que ``'x'`` permettant une "
+"création exclusive et ``'a'`` pour ajouter à la fin du fichier (qui sur "
+"certains systèmes Unix signifie que *toutes* les écritures seront des ajouts "
+"en fin de fichier peu importe la position demandée). En mode texte, si "
+"*encoding* n'est pas spécifié l'encodage utilisé est dépendant de la "
+"plateforme : ``locale.getpreferredencoding(False)`` est appelée pour obtenir "
+"l'encodage de la locale actuelle. (Pour lire et écrire des octets bruts, "
+"utilisez le mode binaire en laissant *encoding* non spécifié.) Les modes "
+"disponibles sont :"
 
 #: library/functions.rst:838 library/struct.rst:99
 msgid "Character"
@@ -35568,11 +35661,15 @@ msgstr ""
 "8192 octets."
 
 #: library/functions.rst:879
+#, fuzzy
 msgid ""
 "\"Interactive\" text files (files for which :meth:`isatty` returns True) use "
 "line buffering.  Other text files use the policy described above for binary "
 "files."
 msgstr ""
+"Les fichiers texte \"interactifs\" (fichiers pour lesquels :meth:`io.IOBase."
+"isatty` donne ``True``) utilisent un tampon par lignes. Les autres fichiers "
+"texte sont traités comme les fichiers binaires."
 
 #: library/functions.rst:883
 msgid ""
@@ -35649,6 +35746,7 @@ msgid ""
 msgstr ""
 
 #: library/functions.rst:927
+#, fuzzy
 msgid ""
 "The type of :term:`file object` returned by the :func:`open` function "
 "depends on the mode.  When :func:`open` is used to open a file in a text "
@@ -35662,6 +35760,17 @@ msgid ""
 "disabled, the raw stream, a subclass of :class:`io.RawIOBase`, :class:`io."
 "FileIO`, is returned."
 msgstr ""
+"Le type de :term:`file object` donné par la fonction :func:`open` dépend du "
+"mode. Lorsque :func:`open` est utilisé pour ouvrir un fichier en mode texte "
+"(``w``, ``r``, ``wt``, ``rt``, etc.), il donne une classe fille de :class:"
+"`io.TextIOBase` (spécifiquement : :class:`io.TextIOWrapper`). Lors de "
+"l'ouverture d'un fichier en mode binaire avec tampon, la classe donnée sera "
+"une fille de :class:`io.BufferedIOBase`. La classe exacte varie : en lecture "
+"en mode mode binaire elle donne une :class:`io.BufferedReader`, en écriture "
+"et ajout en mode binaire c'est une :class:`io.BufferedWriter`, et en lecture/"
+"écriture, c'est une :class:`io.BufferedRandom`. Lorsque le tampon est "
+"désactivé, le flux brut, une classe fille de :class:`io.RawIOBase`, :class:"
+"`io.FileIO` est donnée."
 
 #: library/functions.rst:948
 msgid ""
@@ -35674,12 +35783,16 @@ msgstr ""
 "path`, :mod:`tmpfile`, et :mod:`shutil`."
 
 #: library/functions.rst:956
+#, fuzzy
 msgid ""
 "Given a string representing one Unicode character, return an integer "
 "representing the Unicode code point of that character.  For example, "
 "``ord('a')`` returns the integer ``97`` and ``ord('\\u2020')`` returns "
 "``8224``.  This is the inverse of :func:`chr`."
 msgstr ""
+"Prends une chaîne d'un caractère Unicode, donne un entier représentant son "
+"code caractère Unicode. Par exemple, ``ord('a')`` donne l'entier ``97`` et "
+"``ord('ν')`` donne ``957``. C'est l'inverse de la fonction :func:`chr`."
 
 #: library/functions.rst:961
 msgid ""
@@ -35721,11 +35834,15 @@ msgstr ""
 "*y* doivent être des entiers et *y* positif."
 
 #: library/functions.rst:983
+#, fuzzy
 msgid ""
 "Print *objects* to the stream *file*, separated by *sep* and followed by "
 "*end*.  *sep*, *end* and *file*, if present, must be given as keyword "
 "arguments."
 msgstr ""
+"Écrit *objects* dans le flux texte *file*, séparés par *sep* et suivis de "
+"*end*. *sep*, *end*, et *file*, s'ils sont présents, doivent être données "
+"par mot clef."
 
 #: library/functions.rst:987
 msgid ""
@@ -35785,12 +35902,17 @@ msgid ""
 msgstr ""
 
 #: library/functions.rst:1038
+#, fuzzy
 msgid ""
 "A property object has :attr:`getter`, :attr:`setter`, and :attr:`deleter` "
 "methods usable as decorators that create a copy of the property with the "
 "corresponding accessor function set to the decorated function.  This is best "
 "explained with an example::"
 msgstr ""
+"Un objet propriété à les méthodes :attr:`~property.getter`, :attr:`~property."
+"setter` et :attr:`~property.deleter` utilisables comme décorateurs créant "
+"une copie de la propriété avec les accesseurs correspondants définis par la "
+"fonction de décoration. C'est plus clair avec un exemple : ::"
 
 #: library/functions.rst:1060
 msgid ""
@@ -35803,10 +35925,13 @@ msgstr ""
 "ce cas.)"
 
 #: library/functions.rst:1064
+#, fuzzy
 msgid ""
 "The returned property also has the attributes ``fget``, ``fset``, and "
 "``fdel`` corresponding to the constructor arguments."
 msgstr ""
+"L'objet propriété donné à aussi les attributs ``fget``, ``fset`` et ``fdel`` "
+"correspondant correspondants aux arguments du constructeur."
 
 #: library/functions.rst:1072
 msgid ""
@@ -35822,25 +35947,38 @@ msgid ""
 msgstr ""
 
 #: library/functions.rst:1097
+#, fuzzy
 msgid ""
 "Range objects implement the :class:`collections.Sequence` ABC, and provide "
 "features such as containment tests, element index lookup, slicing and "
 "support for negative indices (see :ref:`typesseq`):"
 msgstr ""
+"Les *range* implémentent la classe de base abstraite :class:`collections.abc."
+"Sequence`, et offrent des fonctionnalités telles que les tests "
+"d'appartenance (avec *in*) , de recherche par index, le tranchage et ils "
+"gerent les indices négatifs (voir :ref:`typesseq`):"
 
 #: library/functions.rst:1117
+#, fuzzy
 msgid ""
 "Ranges containing absolute values larger than :data:`sys.maxsize` are "
 "permitted but some features (such as :func:`len`) will raise :exc:"
 "`OverflowError`."
 msgstr ""
+"Les *range* contenant des valeurs absolues plus grandes que :data:`sys."
+"maxsize` sont permises, mais certaines fonctionnalités (comme :func:`len`) "
+"peuvent lever :exc:`OverflowError`."
 
 #: library/functions.rst:1120
+#, fuzzy
 msgid ""
 "Implement the Sequence ABC. Support slicing and negative indices. Test "
 "integers for membership in constant time instead of iterating through all "
 "items."
 msgstr ""
+"Implémente la classe de base abstraite *Sequence*. Supporte le *slicing* et "
+"les indices négatifs. Tester l'appartenance d'un :class:`int` en temps "
+"constant au lieu d'itérer tous les éléments."
 
 #: library/functions.rst:1129
 msgid ""
@@ -35944,6 +36082,7 @@ msgstr ""
 "``x.foobar = 123``."
 
 #: library/functions.rst:1195
+#, fuzzy
 msgid ""
 "Return a :term:`slice` object representing the set of indices specified by "
 "``range(start, stop, step)``.  The *start* and *step* arguments default to "
@@ -35955,6 +36094,16 @@ msgid ""
 "``a[start:stop:step]`` or ``a[start:stop, i]``.  See :func:`itertools."
 "islice` for an alternate version that returns an iterator."
 msgstr ""
+"Donne un objet :class:`slice` représentant un ensemble d'indices spécifiés "
+"par ``range(start, stop, step)``. Les arguments *start* et *step* valent "
+"``None`` par défaut. Les objets *slice* (tranches) ont les attributs "
+"suivants en lecture seule : :attr:`~slice.start`, :attr:`~slice.stop`, et :"
+"attr:`~slice.step` qui valent simplement les trois arguments (ou leurs "
+"valeur par défaut). Ils n'ont pas d'autres fonctionnalité explicite, "
+"cependant ils sont utilisés par *Numerical Python* et d'autres bibliothèques "
+"tierces. Les objets *slice* sont aussi générés par la syntaxe d'indiçage "
+"étendue. Par exemple ``a[start:stop:step]`` ou ``a[start:stop, i]``. Voir :"
+"func:`itertools.islice` pour une version alternative donnant un itérateur."
 
 #: library/functions.rst:1208
 msgid "Return a new sorted list from the items in *iterable*."
@@ -36045,11 +36194,15 @@ msgstr ""
 "documentation de la hiérarchie des types standards dans :ref:`types`."
 
 #: library/functions.rst:1256
+#, fuzzy
 msgid ""
 "Return a :ref:`string <typesseq>` version of *object*.  If *object* is not "
 "provided, returns the empty string.  Otherwise, the behavior of ``str()`` "
 "depends on whether *encoding* or *errors* is given, as follows."
 msgstr ""
+"Renvoie une représentation :ref:`string <textseq>` de *object*. Si *object* "
+"n'est pas fourni, retourne une chaîne vide. Sinon, le comportement de "
+"``str()`` dépend de si *encoding* ou *errors* sont donnés, voir l'exemple."
 
 #: library/functions.rst:1260
 msgid ""
@@ -36248,11 +36401,15 @@ msgid ""
 msgstr ""
 
 #: library/functions.rst:1381
+#, fuzzy
 msgid ""
 "With one argument, return the type of an *object*.  The return value is a "
 "type object and generally the same object as returned by ``object."
 "__class__``."
 msgstr ""
+"Avec un argument, donne le type d'*object*. La valeur donnée est un objet "
+"type et généralement la même que la valeur de l'attribut :attr:`object."
+"__class__ <instance.__class__>`."
 
 #: library/functions.rst:1384
 msgid ""
@@ -36459,8 +36616,9 @@ msgid ""
 msgstr ""
 
 #: library/functools.rst:11
+#, fuzzy
 msgid "**Source code:** :source:`Lib/functools.py`"
-msgstr ""
+msgstr "**Code source :** :source:`Lib/fractions.py`"
 
 #: library/functools.rst:15
 msgid ""
@@ -36942,8 +37100,9 @@ msgid ":mod:`getopt` --- C-style parser for command line options"
 msgstr ""
 
 #: library/getopt.rst:8
+#, fuzzy
 msgid "**Source code:** :source:`Lib/getopt.py`"
-msgstr ""
+msgstr "**Code source :** :source:`Lib/ast.py`"
 
 #: library/getopt.rst:13
 msgid ""
@@ -37880,8 +38039,9 @@ msgid ":mod:`glob` --- Unix style pathname pattern expansion"
 msgstr ""
 
 #: library/glob.rst:10
+#, fuzzy
 msgid "**Source code:** :source:`Lib/glob.py`"
-msgstr ""
+msgstr "**Code source :** :source:`Lib/bdb.py`"
 
 #: library/glob.rst:14
 msgid ""
@@ -38051,8 +38211,9 @@ msgid ":mod:`gzip` --- Support for :program:`gzip` files"
 msgstr ""
 
 #: library/gzip.rst:7
+#, fuzzy
 msgid "**Source code:** :source:`Lib/gzip.py`"
-msgstr ""
+msgstr "**Code source :** :source:`Lib/cgi.py`"
 
 #: library/gzip.rst:11
 msgid ""
@@ -38229,8 +38390,9 @@ msgid ":mod:`hashlib` --- Secure hashes and message digests"
 msgstr ""
 
 #: library/hashlib.rst:14
+#, fuzzy
 msgid "**Source code:** :source:`Lib/hashlib.py`"
-msgstr ""
+msgstr "**Code source :** :source:`Lib/ast.py`"
 
 #: library/hashlib.rst:18
 msgid ""
@@ -38417,8 +38579,9 @@ msgid ":mod:`heapq` --- Heap queue algorithm"
 msgstr ""
 
 #: library/heapq.rst:11
+#, fuzzy
 msgid "**Source code:** :source:`Lib/heapq.py`"
-msgstr ""
+msgstr "**Code source :** :source:`Lib/ast.py`"
 
 #: library/heapq.rst:15
 msgid ""
@@ -38733,8 +38896,9 @@ msgid ":mod:`hmac` --- Keyed-Hashing for Message Authentication"
 msgstr ""
 
 #: library/hmac.rst:10
+#, fuzzy
 msgid "**Source code:** :source:`Lib/hmac.py`"
-msgstr ""
+msgstr "**Code source:** :source:`Lib/abc.py`"
 
 #: library/hmac.rst:14
 msgid "This module implements the HMAC algorithm as described by :rfc:`2104`."
@@ -39144,8 +39308,9 @@ msgid ":mod:`http.client` --- HTTP protocol client"
 msgstr ""
 
 #: library/http.client.rst:14
+#, fuzzy
 msgid "**Source code:** :source:`Lib/http/client.py`"
-msgstr ""
+msgstr "**Source code:** :source:`Lib/xmlrpc/client.py`"
 
 #: library/http.client.rst:18
 msgid ""
@@ -39331,8 +39496,9 @@ msgid ""
 msgstr ""
 
 #: library/http.client.rst:200
+#, fuzzy
 msgid ":const:`OK`"
-msgstr ""
+msgstr ":const:`SO`"
 
 #: library/http.client.rst:200
 msgid "``200``"
@@ -39451,8 +39617,9 @@ msgid "``226``"
 msgstr "``226``"
 
 #: library/http.client.rst:231
+#, fuzzy
 msgid "Delta encoding in HTTP, :rfc:`3229`, Section 10.4.1"
-msgstr ""
+msgstr "Delta Encoding in HTTP :rfc:`3229`, Section 10.4.1"
 
 #: library/http.client.rst:234
 msgid ":const:`MULTIPLE_CHOICES`"
@@ -42333,8 +42500,9 @@ msgid ":mod:`imaplib` --- IMAP4 protocol client"
 msgstr ""
 
 #: library/imaplib.rst:19
+#, fuzzy
 msgid "**Source code:** :source:`Lib/imaplib.py`"
-msgstr ""
+msgstr "**Code source :** :source:`Lib/ftplib.py`"
 
 #: library/imaplib.rst:23
 msgid ""
@@ -42857,8 +43025,9 @@ msgid ":mod:`imghdr` --- Determine the type of an image"
 msgstr ""
 
 #: library/imghdr.rst:7
+#, fuzzy
 msgid "**Source code:** :source:`Lib/imghdr.py`"
-msgstr ""
+msgstr "**Code source :** :source:`Lib/bdb.py`"
 
 #: library/imghdr.rst:11
 msgid ""
@@ -43989,8 +44158,9 @@ msgid ":mod:`inspect` --- Inspect live objects"
 msgstr ""
 
 #: library/inspect.rst:9
+#, fuzzy
 msgid "**Source code:** :source:`Lib/inspect.py`"
-msgstr ""
+msgstr "**Code source :** :source:`Lib/bisect.py`"
 
 #: library/inspect.rst:13
 msgid ""
@@ -45973,6 +46143,7 @@ msgid ""
 msgstr ""
 
 #: library/io.rst:789
+#, fuzzy
 msgid ""
 "When reading input from the stream, if *newline* is ``None``, :term:"
 "`universal newlines` mode is enabled.  Lines in the input can end in "
@@ -45983,6 +46154,13 @@ msgid ""
 "terminated by the given string, and the line ending is returned to the "
 "caller untranslated."
 msgstr ""
+"Lors de la lecture, si *newline* est ``None``, le mode *universal newlines* "
+"est activé. Les lignes lues peuvent terminer par ``'\\n'``, ``'\\r'``, ou "
+"``'\\r\\n'``, qui sont remplacés par ``'\\n'``, avant d'être données à "
+"l'appelant. S'il vaut ``'*'``, le mode *universal newline* est activé mais "
+"les fin de lignes ne sont pas remplacés. S'il a n'importe quel autre valeur "
+"autorisée, les lignes sont seulement terminées par la chaîne donnée, qui est "
+"rendue tel qu'elle."
 
 #: library/io.rst:804
 msgid ""
@@ -46183,8 +46361,9 @@ msgid "Arguments"
 msgstr ""
 
 #: library/itertools.rst:37 library/itertools.rst:47 library/itertools.rst:65
+#, fuzzy
 msgid "Results"
-msgstr ""
+msgstr "Résultat"
 
 #: library/itertools.rst:39
 msgid ":func:`count`"
@@ -46303,8 +46482,9 @@ msgid ":func:`filterfalse`"
 msgstr ":func:`filterfalse`"
 
 #: library/itertools.rst:53
+#, fuzzy
 msgid "elements of seq where pred(elem) is False"
-msgstr ""
+msgstr " of seq where pred(elem) is false"
 
 #: library/itertools.rst:53
 msgid "``filterfalse(lambda x: x%2, range(10)) --> 0 2 4 6 8``"
@@ -46880,8 +47060,9 @@ msgid ""
 msgstr ""
 
 #: library/json.rst:119
+#, fuzzy
 msgid "Basic Usage"
-msgstr ""
+msgstr "Utilisation de base"
 
 #: library/json.rst:126
 msgid ""
@@ -47434,8 +47615,9 @@ msgid ":mod:`keyword` --- Testing for Python keywords"
 msgstr ""
 
 #: library/keyword.rst:7
+#, fuzzy
 msgid "**Source code:** :source:`Lib/keyword.py`"
-msgstr ""
+msgstr "**Code source :** :source:`Lib/code.py`"
 
 #: library/keyword.rst:11
 msgid ""
@@ -47473,8 +47655,9 @@ msgid ":mod:`linecache` --- Random access to text lines"
 msgstr ""
 
 #: library/linecache.rst:8
+#, fuzzy
 msgid "**Source code:** :source:`Lib/linecache.py`"
-msgstr ""
+msgstr "**Code source :** :source:`Lib/fnmatch.py`"
 
 #: library/linecache.rst:12
 msgid ""
@@ -53447,8 +53630,9 @@ msgid ":mod:`mailcap` --- Mailcap file handling"
 msgstr ""
 
 #: library/mailcap.rst:7
+#, fuzzy
 msgid "**Source code:** :source:`Lib/mailcap.py`"
-msgstr ""
+msgstr "**Code source:** :source:`Lib/aifc.py`"
 
 #: library/mailcap.rst:11
 msgid ""
@@ -53745,11 +53929,15 @@ msgid "Number-theoretic and representation functions"
 msgstr "Fonctions arithmétiques et de représentation"
 
 #: library/math.rst:32
+#, fuzzy
 msgid ""
 "Return the ceiling of *x*, the smallest integer greater than or equal to "
 "*x*. If *x* is not a float, delegates to ``x.__ceil__()``, which should "
 "return an :class:`Integral` value."
 msgstr ""
+"Retourne la fonction *plafond* de *x*, le plus petit entier plus grand ou "
+"égal à *x*. Si *x* est un flottant, délègue à ``x.__ceil()__``, qui doit "
+"retourner une valeur :class:`~numbers.Integral`."
 
 #: library/math.rst:39
 msgid ""
@@ -53770,11 +53958,15 @@ msgstr ""
 "entier ou s'il est négatif."
 
 #: library/math.rst:54
+#, fuzzy
 msgid ""
 "Return the floor of *x*, the largest integer less than or equal to *x*. If "
 "*x* is not a float, delegates to ``x.__floor__()``, which should return an :"
 "class:`Integral` value."
 msgstr ""
+"Retourne le plancher de *x*, le plus grand entier plus petit ou égal à *x*. "
+"Si *x* n'est pas un flottant, délègue à ``x.__floor()__``, qui doit "
+"retourner une valeur :class:`~numbers.Integral`."
 
 #: library/math.rst:61
 msgid ""
@@ -53842,11 +54034,15 @@ msgstr ""
 "du bit de poids faible."
 
 #: library/math.rst:98
+#, fuzzy
 msgid ""
 "For further discussion and two alternative approaches, see the `ASPN "
 "cookbook recipes for accurate floating point summation <http://code."
 "activestate.com/recipes/393090/>`_\\."
 msgstr ""
+"Pour de plus amples discussions et deux approches alternatives, voir `ASPN "
+"cookbook recipes for accurate floating point summation <https://code."
+"activestate.com/recipes/393090/>`_\\."
 
 #: library/math.rst:105
 msgid ""
@@ -53888,10 +54084,13 @@ msgstr ""
 "ont le signe de *x* et sont flottants."
 
 #: library/math.rst:136
+#, fuzzy
 msgid ""
 "Return the :class:`Real` value *x* truncated to an :class:`Integral` "
 "(usually an integer). Delegates to ``x.__trunc__()``."
 msgstr ""
+"Retourne la valeur :class:`~numbers.Real` *x* tronquée en un :class:"
+"`~numbers.Integral` (habituellement un entier). Délègue à ``x.__trunc()__``."
 
 #: library/math.rst:140
 msgid ""
@@ -53926,12 +54125,17 @@ msgid "Return ``e**x``."
 msgstr "Retourne ``e**x``."
 
 #: library/math.rst:162
+#, fuzzy
 msgid ""
 "Return ``e**x - 1``.  For small floats *x*, the subtraction in ``exp(x) - "
 "1`` can result in a `significant loss of precision <http://en.wikipedia.org/"
 "wiki/Loss_of_significance>`_\\; the :func:`expm1` function provides a way to "
 "compute this quantity to full precision::"
 msgstr ""
+"Retourne ``e**x - 1``. Pour de petits flottants, la soustraction ``exp(x) - "
+"1`` peut résulter en une `perte significative de précision <https://en."
+"wikipedia.org/wiki/Loss_of_significance>`_\\ ; la fonction :func:`expm1` "
+"fournit un moyen de calculer cette quantité en précision complète : ::"
 
 #: library/math.rst:178
 msgid "With one argument, return the natural logarithm of *x* (to base *e*)."
@@ -54043,19 +54247,25 @@ msgid "Angular conversion"
 msgstr "Conversion angulaire"
 
 #: library/math.rst:269
+#, fuzzy
 msgid "Converts angle *x* from radians to degrees."
-msgstr ""
+msgstr "Convertit l'angle *x* de radians en degrés."
 
 #: library/math.rst:274
+#, fuzzy
 msgid "Converts angle *x* from degrees to radians."
-msgstr ""
+msgstr "Convertit l'ange *x* de degrés en radians."
 
 #: library/math.rst:279
+#, fuzzy
 msgid ""
 "`Hyperbolic functions <http://en.wikipedia.org/wiki/Hyperbolic_function>`_ "
 "are analogs of trigonometric functions that are based on hyperbolas instead "
 "of circles."
 msgstr ""
+"`Hyperbolic functions <https://en.wikipedia.org/wiki/Hyperbolic_function>`_ "
+"sont analogues à des fonctions trigonométriques qui sont basés sur des "
+"hyperboles au lieu de cercles."
 
 #: library/math.rst:285
 msgid "Return the inverse hyperbolic cosine of *x*."
@@ -54074,19 +54284,28 @@ msgid "Special functions"
 msgstr "Fonctions spéciales"
 
 #: library/math.rst:318
+#, fuzzy
 msgid ""
 "Return the `error function <http://en.wikipedia.org/wiki/Error_function>`_ "
 "at *x*."
 msgstr ""
+"Retourne la `fonction d'erreur <https://en.wikipedia.org/wiki/"
+"Error_function>`_ en *x*."
 
 #: library/math.rst:321
+#, fuzzy
 msgid ""
 "The :func:`erf` function can be used to compute traditional statistical "
 "functions such as the `cumulative standard normal distribution <http://en."
 "wikipedia.org/wiki/Normal_distribution#Cumulative_distribution_function>`_::"
 msgstr ""
+"La fonction :func:`erf` peut être utilisée pour calculer des fonctions "
+"statistiques usuelles telles que la `répartition de la loi normale <https://"
+"fr.wikipedia.org/wiki/Loi_normale#D.C3.A9finition_par_la_fonction_de_r.C3."
+"A9partition>`_ : ::"
 
 #: library/math.rst:334
+#, fuzzy
 msgid ""
 "Return the complementary error function at *x*.  The `complementary error "
 "function <http://en.wikipedia.org/wiki/Error_function>`_ is defined as ``1.0 "
@@ -54094,12 +54313,20 @@ msgid ""
 "would cause a `loss of significance <http://en.wikipedia.org/wiki/"
 "Loss_of_significance>`_\\."
 msgstr ""
+"Retourne la fonction d'erreur complémentaire en *x*. La `fonction d'erreur "
+"complémentaire <https://fr.wikipedia.org/wiki/Fonction_d'erreur>`_ est "
+"définie par ``1.0 - erf(x)``. C'est utilisé pour de grandes valeurs de *x* "
+"où une soustraction d'un causerait une `perte de précision <https://en."
+"wikipedia.org/wiki/Loss_of_significance>`_\\."
 
 #: library/math.rst:345
+#, fuzzy
 msgid ""
 "Return the `Gamma function <http://en.wikipedia.org/wiki/Gamma_function>`_ "
 "at *x*."
 msgstr ""
+"Retourne la `fonction Gamma <https://fr.wikipedia.org/wiki/Fonction_gamma>`_ "
+"en *x*."
 
 #: library/math.rst:353
 msgid ""
@@ -54326,8 +54553,9 @@ msgid ""
 msgstr ""
 
 #: library/mimetypes.rst:149
+#, fuzzy
 msgid "An example usage of the module::"
-msgstr ""
+msgstr "Un exemple d'utilisation du module :"
 
 #: library/mimetypes.rst:166
 msgid "MimeTypes Objects"
@@ -58010,8 +58238,9 @@ msgid ":mod:`netrc` --- netrc file processing"
 msgstr ""
 
 #: library/netrc.rst:10
+#, fuzzy
 msgid "**Source code:** :source:`Lib/netrc.py`"
-msgstr ""
+msgstr "**Code source :** :source:`Lib/fnmatch.py`"
 
 #: library/netrc.rst:14
 msgid ""
@@ -58157,8 +58386,9 @@ msgid ":mod:`nntplib` --- NNTP protocol client"
 msgstr ""
 
 #: library/nntplib.rst:13
+#, fuzzy
 msgid "**Source code:** :source:`Lib/nntplib.py`"
-msgstr ""
+msgstr "**Code source :** :source:`Lib/ftplib.py`"
 
 #: library/nntplib.rst:17
 msgid ""
@@ -58897,8 +59127,9 @@ msgid "The mathematical and bitwise operations are the most numerous:"
 msgstr ""
 
 #: library/operator.rst:85
+#, fuzzy
 msgid "Return the absolute value of *obj*."
-msgstr ""
+msgstr "Retourne la valeur absolue de *x*."
 
 #: library/operator.rst:91
 msgid "Return ``a + b``, for *a* and *b* numbers."
@@ -59076,8 +59307,9 @@ msgid "Syntax"
 msgstr ""
 
 #: library/operator.rst:335
+#, fuzzy
 msgid "Function"
-msgstr ""
+msgstr "Fonctions"
 
 #: library/operator.rst:337
 msgid "Addition"
@@ -59441,8 +59673,9 @@ msgid "``eq(a, b)``"
 msgstr "``eq(a, b)``"
 
 #: library/operator.rst:399
+#, fuzzy
 msgid "Difference"
-msgstr ""
+msgstr "Différences :"
 
 #: library/operator.rst:399 library/unittest.rst:834
 msgid "``a != b``"
@@ -59567,8 +59800,9 @@ msgid ""
 msgstr ""
 
 #: library/optparse.rst:14
+#, fuzzy
 msgid "**Source code:** :source:`Lib/optparse.py`"
-msgstr ""
+msgstr "**Code source:** :source:`Lib/argparse.py`"
 
 #: library/optparse.rst:18
 msgid ""
@@ -64680,8 +64914,9 @@ msgid ""
 msgstr ""
 
 #: library/os.path.rst:324
+#, fuzzy
 msgid "Availability:  Windows."
-msgstr ""
+msgstr "Disponibilité : Windows."
 
 #: library/os.path.rst:329
 msgid ""
@@ -67186,8 +67421,9 @@ msgid ":mod:`pipes` --- Interface to shell pipelines"
 msgstr ""
 
 #: library/pipes.rst:9
+#, fuzzy
 msgid "**Source code:** :source:`Lib/pipes.py`"
-msgstr ""
+msgstr "**Code source :** :source:`Lib/csv.py`"
 
 #: library/pipes.rst:13
 msgid ""
@@ -67275,8 +67511,9 @@ msgid ":mod:`pkgutil` --- Package extension utility"
 msgstr ""
 
 #: library/pkgutil.rst:7
+#, fuzzy
 msgid "**Source code:** :source:`Lib/pkgutil.py`"
-msgstr ""
+msgstr "**Code source :** :source:`Lib/cgi.py`"
 
 #: library/pkgutil.rst:11
 msgid ""
@@ -67514,8 +67751,9 @@ msgid ":mod:`platform` ---  Access to underlying platform's identifying data"
 msgstr ""
 
 #: library/platform.rst:9
+#, fuzzy
 msgid "**Source code:** :source:`Lib/platform.py`"
-msgstr ""
+msgstr "**Code source :** :source:`Lib/ast.py`"
 
 #: library/platform.rst:15
 msgid ""
@@ -67832,8 +68070,9 @@ msgid ":mod:`plistlib` --- Generate and parse Mac OS X ``.plist`` files"
 msgstr ""
 
 #: library/plistlib.rst:14
+#, fuzzy
 msgid "**Source code:** :source:`Lib/plistlib.py`"
-msgstr ""
+msgstr "**Code source :** :source:`Lib/ftplib.py`"
 
 #: library/plistlib.rst:18
 msgid ""
@@ -67951,8 +68190,9 @@ msgid ":mod:`poplib` --- POP3 protocol client"
 msgstr ""
 
 #: library/poplib.rst:11
+#, fuzzy
 msgid "**Source code:** :source:`Lib/poplib.py`"
-msgstr ""
+msgstr "**Code source :** :source:`Lib/ftplib.py`"
 
 #: library/poplib.rst:15
 msgid ""
@@ -68240,8 +68480,9 @@ msgid ":mod:`pprint` --- Data pretty printer"
 msgstr ""
 
 #: library/pprint.rst:9
+#, fuzzy
 msgid "**Source code:** :source:`Lib/pprint.py`"
-msgstr ""
+msgstr "**Code source :** :source:`Lib/string.py`"
 
 #: library/pprint.rst:13
 msgid ""
@@ -69383,8 +69624,9 @@ msgid ":mod:`py_compile` --- Compile Python source files"
 msgstr ""
 
 #: library/py_compile.rst:11
+#, fuzzy
 msgid "**Source code:** :source:`Lib/py_compile.py`"
-msgstr ""
+msgstr "**Code source :** :source:`Lib/compileall.py`"
 
 #: library/py_compile.rst:15
 msgid ""
@@ -69469,8 +69711,9 @@ msgid ":mod:`pyclbr` --- Python class browser support"
 msgstr ""
 
 #: library/pyclbr.rst:8
+#, fuzzy
 msgid "**Source code:** :source:`Lib/pyclbr.py`"
-msgstr ""
+msgstr "**Code source :** :source:`Lib/ftplib.py`"
 
 #: library/pyclbr.rst:12
 msgid ""
@@ -69580,8 +69823,9 @@ msgid ":mod:`pydoc` --- Documentation generator and online help system"
 msgstr ""
 
 #: library/pydoc.rst:15
+#, fuzzy
 msgid "**Source code:** :source:`Lib/pydoc.py`"
-msgstr ""
+msgstr "**Code source :** :source:`Lib/csv.py`"
 
 #: library/pydoc.rst:19
 msgid ""
@@ -70476,8 +70720,9 @@ msgid ":mod:`queue` --- A synchronized queue class"
 msgstr ""
 
 #: library/queue.rst:7
+#, fuzzy
 msgid "**Source code:** :source:`Lib/queue.py`"
-msgstr ""
+msgstr "**Code source :** :source:`Lib/enum.py`"
 
 #: library/queue.rst:11
 msgid ""
@@ -70666,8 +70911,9 @@ msgid ":mod:`quopri` --- Encode and decode MIME quoted-printable data"
 msgstr ""
 
 #: library/quopri.rst:12
+#, fuzzy
 msgid "**Source code:** :source:`Lib/quopri.py`"
-msgstr ""
+msgstr "**Code source :** :source:`Lib/cgi.py`"
 
 #: library/quopri.rst:16
 msgid ""
@@ -70726,8 +70972,9 @@ msgid ":mod:`random` --- Generate pseudo-random numbers"
 msgstr ""
 
 #: library/random.rst:7
+#, fuzzy
 msgid "**Source code:** :source:`Lib/random.py`"
-msgstr ""
+msgstr "**Code source :** :source:`Lib/enum.py`"
 
 #: library/random.rst:11
 msgid ""
@@ -71082,8 +71329,9 @@ msgid "Examples and Recipes"
 msgstr ""
 
 #: library/random.rst:288
+#, fuzzy
 msgid "Basic usage::"
-msgstr ""
+msgstr "Utilisation de base"
 
 #: library/random.rst:313
 msgid ""
@@ -72804,8 +73052,9 @@ msgid ":mod:`reprlib` --- Alternate :func:`repr` implementation"
 msgstr ""
 
 #: library/reprlib.rst:8
+#, fuzzy
 msgid "**Source code:** :source:`Lib/reprlib.py`"
-msgstr ""
+msgstr "**Code source :** :source:`Lib/ftplib.py`"
 
 #: library/reprlib.rst:12
 msgid ""
@@ -73422,8 +73671,9 @@ msgid ":mod:`runpy` --- Locating and executing Python modules"
 msgstr ""
 
 #: library/runpy.rst:8
+#, fuzzy
 msgid "**Source code:** :source:`Lib/runpy.py`"
-msgstr ""
+msgstr "**Code source :** :source:`Lib/string.py`"
 
 #: library/runpy.rst:12
 msgid ""
@@ -73649,8 +73899,9 @@ msgid ":mod:`sched` --- Event scheduler"
 msgstr ""
 
 #: library/sched.rst:10
+#, fuzzy
 msgid "**Source code:** :source:`Lib/sched.py`"
-msgstr ""
+msgstr "**Code source :** :source:`Lib/code.py`"
 
 #: library/sched.rst:14
 msgid ""
@@ -74514,8 +74765,9 @@ msgid ":mod:`shelve` --- Python object persistence"
 msgstr ""
 
 #: library/shelve.rst:10
+#, fuzzy
 msgid "**Source code:** :source:`Lib/shelve.py`"
-msgstr ""
+msgstr "**Code source :** :source:`Lib/csv.py`"
 
 #: library/shelve.rst:14
 msgid ""
@@ -74708,8 +74960,9 @@ msgid ":mod:`shlex` --- Simple lexical analysis"
 msgstr ""
 
 #: library/shlex.rst:11
+#, fuzzy
 msgid "**Source code:** :source:`Lib/shlex.py`"
-msgstr ""
+msgstr "**Code source :** :source:`Lib/csv.py`"
 
 #: library/shlex.rst:15
 msgid ""
@@ -75059,8 +75312,9 @@ msgid ":mod:`shutil` --- High-level file operations"
 msgstr ""
 
 #: library/shutil.rst:13
+#, fuzzy
 msgid "**Source code:** :source:`Lib/shutil.py`"
-msgstr ""
+msgstr "**Code source :** :source:`Lib/ast.py`"
 
 #: library/shutil.rst:17
 msgid ""
@@ -75766,8 +76020,9 @@ msgid ":mod:`site` --- Site-specific configuration hook"
 msgstr ""
 
 #: library/site.rst:7
+#, fuzzy
 msgid "**Source code:** :source:`Lib/site.py`"
-msgstr ""
+msgstr "**Code source :** :source:`Lib/ast.py`"
 
 #: library/site.rst:13
 msgid ""
@@ -75968,8 +76223,9 @@ msgid ":mod:`smtpd` --- SMTP Server"
 msgstr ""
 
 #: library/smtpd.rst:10
+#, fuzzy
 msgid "**Source code:** :source:`Lib/smtpd.py`"
-msgstr ""
+msgstr "**Code source :** :source:`Lib/ast.py`"
 
 #: library/smtpd.rst:14
 msgid "This module offers several classes to implement SMTP (email) servers."
@@ -76220,8 +76476,9 @@ msgid ":mod:`smtplib` --- SMTP protocol client"
 msgstr ""
 
 #: library/smtplib.rst:13
+#, fuzzy
 msgid "**Source code:** :source:`Lib/smtplib.py`"
-msgstr ""
+msgstr "**Code source :** :source:`Lib/ftplib.py`"
 
 #: library/smtplib.rst:17
 msgid ""
@@ -76694,8 +76951,9 @@ msgid ":mod:`sndhdr` --- Determine type of sound file"
 msgstr ""
 
 #: library/sndhdr.rst:13
+#, fuzzy
 msgid "**Source code:** :source:`Lib/sndhdr.py`"
-msgstr ""
+msgstr "**Code source :** :source:`Lib/csv.py`"
 
 #: library/sndhdr.rst:17
 msgid ""
@@ -78288,12 +78546,14 @@ msgid ""
 msgstr ""
 
 #: library/spwd.rst:22
+#, fuzzy
 msgid "``sp_nam``"
-msgstr ""
+msgstr "``sp_namp``"
 
 #: library/spwd.rst:24
+#, fuzzy
 msgid "``sp_pwd``"
-msgstr ""
+msgstr "``sp_pwdp``"
 
 #: library/spwd.rst:24
 msgid "Encrypted password"
@@ -79079,16 +79339,18 @@ msgid "``NULL``"
 msgstr "``NULL``"
 
 #: library/sqlite3.rst:677 library/sqlite3.rst:694
+#, fuzzy
 msgid ":class:`int`"
-msgstr ""
+msgstr ":class:`c_int`"
 
 #: library/sqlite3.rst:677 library/sqlite3.rst:694
 msgid "``INTEGER``"
 msgstr "``INTEGER``"
 
 #: library/sqlite3.rst:679 library/sqlite3.rst:696
+#, fuzzy
 msgid ":class:`float`"
-msgstr ""
+msgstr ":class:`c_float`"
 
 #: library/sqlite3.rst:679 library/sqlite3.rst:696
 msgid "``REAL``"
@@ -79409,8 +79671,9 @@ msgid ":mod:`ssl` --- TLS/SSL wrapper for socket objects"
 msgstr ""
 
 #: library/ssl.rst:15
+#, fuzzy
 msgid "**Source code:** :source:`Lib/ssl.py`"
-msgstr ""
+msgstr "**Code source :** :source:`Lib/csv.py`"
 
 #: library/ssl.rst:19
 msgid ""
@@ -80559,8 +80822,9 @@ msgid ":mod:`stat` --- Interpreting :func:`stat` results"
 msgstr ""
 
 #: library/stat.rst:9
+#, fuzzy
 msgid "**Source code:** :source:`Lib/stat.py`"
-msgstr ""
+msgstr "**Code source :** :source:`Lib/ast.py`"
 
 #: library/stat.rst:13
 msgid ""
@@ -81453,10 +81717,13 @@ msgstr ""
 "tout équivalent Unicode (caractères avec la propriété ``Nd``)."
 
 #: library/stdtypes.rst:353
+#, fuzzy
 msgid ""
 "See http://www.unicode.org/Public/6.0.0/ucd/extracted/DerivedNumericType.txt "
 "for a complete list of code points with the ``Nd`` property."
 msgstr ""
+"Voir http://www.unicode.org/Public/8.0.0/ucd/extracted/DerivedNumericType."
+"txt pour une liste complète des caractères avec la propriété ``Nd``."
 
 #: library/stdtypes.rst:357
 msgid ""
@@ -81627,10 +81894,14 @@ msgid "Additional Methods on Integer Types"
 msgstr "Méthodes supplémentaires sur les entiers"
 
 #: library/stdtypes.rst:442
+#, fuzzy
 msgid ""
 "The int type implements the :class:`numbers.Integral` :term:`abstract base "
 "class`. In addition, it provides one more method:"
 msgstr ""
+"Le type int implémente la :term:`classe de base abstraite <abstract base "
+"class>` :class:`numbers.Integral`. Il fournit aussi quelques autres "
+"méthodes :"
 
 #: library/stdtypes.rst:447
 msgid ""
@@ -81842,6 +82113,7 @@ msgid "Hashing of numeric types"
 msgstr "Hachage des types numériques"
 
 #: library/stdtypes.rst:624
+#, fuzzy
 msgid ""
 "For numbers ``x`` and ``y``, possibly of different types, it's a requirement "
 "that ``hash(x) == hash(y)`` whenever ``x == y`` (see the :meth:`__hash__` "
@@ -81856,6 +82128,18 @@ msgid ""
 "is made available to Python as the :attr:`modulus` attribute of :data:`sys."
 "hash_info`."
 msgstr ""
+"Pour deux nombres égaux ``x`` et ``y`` (``x == y``), pouvant être de "
+"différents types, il est une requis que ``hash(x) == hash(y)`` (voir la "
+"documentation de :meth:`__hash__`). Pour faciliter la mise en œuvre et "
+"l'efficacité à travers une variété de types numériques (y compris :class:"
+"`int`, :class:`float`, :class:`decimal.Decimal` et :class:`fractions."
+"Fraction`) le hachage en Python pour les types numérique est basé sur une "
+"fonction mathématique unique qui est définie pour tout nombre rationnel, et "
+"donc s'applique à toutes les instances de :class:`int` et :class:`fractions."
+"Fraction`, et toutes les instances finies de :class:`float` et :class:"
+"`decimal.Decimal`. Essentiellement, cette fonction est donnée par la "
+"réduction modulo ``P`` pour un nombre ``P`` premier fixe. La valeur de ``P`` "
+"est disponible comme attribut :attr:`modulus` de :data:`sys.hash_info`."
 
 #: library/stdtypes.rst:639
 msgid ""
@@ -81928,11 +82212,15 @@ msgstr ""
 "il est remplacé par ``-2``."
 
 #: library/stdtypes.rst:670
+#, fuzzy
 msgid ""
 "To clarify the above rules, here's some example Python code, equivalent to "
 "the builtin hash, for computing the hash of a rational number, :class:"
 "`float`, or :class:`complex`::"
 msgstr ""
+"Afin de clarifier les règles ci-dessus, voici quelques exemples de code "
+"Python, équivalent à la fonction de hachage native, pour calculer le hachage "
+"d'un nombre rationnel,  d'un :class:`float`, ou d'un :class:`complex` ::"
 
 #: library/stdtypes.rst:725
 msgid "Iterator Types"
@@ -81959,6 +82247,7 @@ msgstr ""
 "l'itération :"
 
 #: library/stdtypes.rst:745
+#, fuzzy
 msgid ""
 "Return an iterator object.  The object is required to support the iterator "
 "protocol described below.  If a container supports different types of "
@@ -81969,6 +82258,14 @@ msgid ""
 "attr:`tp_iter` slot of the type structure for Python objects in the Python/C "
 "API."
 msgstr ""
+"Donne un objet itérateur. L'objet doit implémenter le protocole d'itération "
+"décrit ci-dessous. Si un conteneur prend en charge différents types "
+"d'itération, d'autres méthodes peuvent être fournies pour obtenir "
+"spécifiquement les itérateurs pour ces types d'itération. (Exemple d'un "
+"objet supportant plusieurs formes d'itération : une structure d'arbre "
+"pouvant être parcourue en largeur ou en profondeur.) Cette méthode "
+"correspond à l'attribut :c:member:`~PyTypeObject.tp_iter` de la structure du "
+"type des objets Python dans l'API Python/C."
 
 #: library/stdtypes.rst:754
 msgid ""
@@ -81979,20 +82276,31 @@ msgstr ""
 "qui forment ensemble le :dfn:`protocole d'itérateur <iterator protocol>` :"
 
 #: library/stdtypes.rst:760
+#, fuzzy
 msgid ""
 "Return the iterator object itself.  This is required to allow both "
 "containers and iterators to be used with the :keyword:`for` and :keyword:"
 "`in` statements. This method corresponds to the :attr:`tp_iter` slot of the "
 "type structure for Python objects in the Python/C API."
 msgstr ""
+"Donne l'objet itérateur lui-même. Cela est nécessaire pour permettre à la "
+"fois à des conteneurs et des itérateurs d'être utilisés avec les "
+"instructions :keyword:`for` et :keyword:`in`. Cette méthode correspond à "
+"l'attribut :c:member:`~PyTypeObject.tp_iter` de la structure des types des "
+"objets Python dans l'API Python/C."
 
 #: library/stdtypes.rst:768
+#, fuzzy
 msgid ""
 "Return the next item from the container.  If there are no further items, "
 "raise the :exc:`StopIteration` exception.  This method corresponds to the :"
 "attr:`tp_iternext` slot of the type structure for Python objects in the "
 "Python/C API."
 msgstr ""
+"Donne l'élément suivant du conteneur. S'il n'y a pas d'autres éléments, une "
+"exception :exc:`StopIteration` est levée. Cette méthode correspond à "
+"l'attribut :c:member:`PyTypeObject.tp_iternext` de la structure du type des "
+"objets Python dans l'API Python/C."
 
 #: library/stdtypes.rst:773
 msgid ""
@@ -82221,14 +82529,17 @@ msgid "index of the first occurence of *i* in *s*"
 msgstr ""
 
 #: library/stdtypes.rst:900
+#, fuzzy
 msgid "``s.count(i)``"
-msgstr ""
+msgstr "``s.count(x)``"
 
 #: library/stdtypes.rst:900
+#, fuzzy
 msgid "total number of occurences of *i* in *s*"
-msgstr ""
+msgstr "nombre total d'occurrences de *x* dans *s*"
 
 #: library/stdtypes.rst:904
+#, fuzzy
 msgid ""
 "Sequence types also support comparisons.  In particular, tuples and lists "
 "are compared lexicographically by comparing corresponding elements.  This "
@@ -82236,6 +82547,12 @@ msgid ""
 "sequences must be of the same type and have the same length.  (For full "
 "details see :ref:`comparisons` in the language reference.)"
 msgstr ""
+"Les séquences du même type supportent également la comparaison. En "
+"particulier, les *tuples* et les listes sont comparées lexicographiquement "
+"en comparant les éléments correspondants. Cela signifie que pour être "
+"égales, chaques éléments doivent être égaux deux à deux et les deux "
+"séquences doivent être du même type et de la même longueur. (Pour plus de "
+"détails voir :ref:`comparisons` dans la référence du langage.)"
 
 #: library/stdtypes.rst:925
 msgid ""
@@ -82318,12 +82635,17 @@ msgid ""
 msgstr ""
 
 #: library/stdtypes.rst:983
+#, fuzzy
 msgid ""
 "if concatenating :class:`bytes` objects, you can similarly use :meth:`bytes."
 "join`, or you can do in-place concatenation with a :class:`bytearray` "
 "object.  :class:`bytearray` objects are mutable and have an efficient "
 "overallocation mechanism."
 msgstr ""
+"si vous concatennez des :class:`bytes`, vous pouvez aussi utiliser :meth:"
+"`bytes.join` ou :class:`io.BytesIO`, ou vous pouvez faire les concaténation "
+"sur place avec un objet :class:`bytearray`. Les objets :class:`bytearray` "
+"sont mutables et ont un mécanisme de sur-allocation efficace"
 
 #: library/stdtypes.rst:992
 msgid "String Methods"
@@ -82366,6 +82688,7 @@ msgstr ""
 "interprétés comme pour des *slices*."
 
 #: library/stdtypes.rst:1024
+#, fuzzy
 msgid ""
 "Return an encoded version of the string as a bytes object. Default encoding "
 "is ``'utf-8'``. *errors* may be given to set a different error handling "
@@ -82376,6 +82699,15 @@ msgid ""
 "base-classes`. For a list of possible encodings, see section :ref:`standard-"
 "encodings`."
 msgstr ""
+"Donne une version encodée de la chaîne sous la forme d'un objet *bytes*. "
+"L'encodage par défaut est ``'utf-8'``. *errors* peut être donné pour choisir "
+"un autre système de gestion d'erreur. La valeur par défaut pour *errors* est "
+"``'strict'``, ce qui signifie que les erreurs d'encodage soulèvent une :exc:"
+"`UnicodeError`. Les autres valeurs possibles sont ``'ignore'``, "
+"``'replace'``, ``'xmlcharrefreplace'``, ``'backslashreplace'`` et tout autre "
+"nom enregistré via :func:`codecs.register_error`, voir la section :ref:"
+"`error-handlers`. Pour une liste des encodages possibles, voir la section :"
+"ref:`standard-encodings`."
 
 #: library/stdtypes.rst:1033
 msgid "Support for keyword arguments added."
@@ -82404,12 +82736,17 @@ msgid ""
 msgstr ""
 
 #: library/stdtypes.rst:1056
+#, fuzzy
 msgid ""
 "Return the lowest index in the string where substring *sub* is found, such "
 "that *sub* is contained in the slice ``s[start:end]``.  Optional arguments "
 "*start* and *end* are interpreted as in slice notation.  Return ``-1`` if "
 "*sub* is not found."
 msgstr ""
+"Donne la première position où le *sub* se trouve dans les données,  de telle "
+"sorte que *sub* soit contenue dans ``s[start:end]``. Les arguments "
+"facultatifs *start* et *end* sont interprétés comme dans la notation des "
+"*slices*. Donne ``-1`` si *sub* n'est pas trouvé."
 
 #: library/stdtypes.rst:1063
 msgid ""
@@ -82446,17 +82783,24 @@ msgstr ""
 "peuvent être spécifiées dans les chaînes de format."
 
 #: library/stdtypes.rst:1089
+#, fuzzy
 msgid ""
 "Similar to ``str.format(**mapping)``, except that ``mapping`` is used "
 "directly and not copied to a :class:`dict` .  This is useful if for example "
 "``mapping`` is a dict subclass:"
 msgstr ""
+"Semblable à ``str.format(**mapping)``, sauf que ``mapping`` est utilisé "
+"directement et non copié dans un :class:`dict`. C'est utile si, par exemple "
+"``mapping`` est une sous-classe de dict :"
 
 #: library/stdtypes.rst:1105
+#, fuzzy
 msgid ""
 "Like :meth:`find`, but raise :exc:`ValueError` when the substring is not "
 "found."
 msgstr ""
+"Comme :meth:`~str.find`, mais lève une :exc:`ValueError` lorsque la chaîne "
+"est introuvable."
 
 #: library/stdtypes.rst:1110
 msgid ""
@@ -82617,11 +82961,16 @@ msgstr ""
 "séparateur entre les éléments est la chaîne fournissant cette méthode."
 
 #: library/stdtypes.rst:1206
+#, fuzzy
 msgid ""
 "Return the string left justified in a string of length *width*. Padding is "
 "done using the specified *fillchar* (default is a space).  The original "
 "string is returned if *width* is less than or equal to ``len(s)``."
 msgstr ""
+"Renvoie la chaîne justifiée à gauche dans une chaîne de longueur *width*. Le "
+"rembourrage est fait en utilisant *fillchar* (qui par défaut est un espace "
+"ASCII). La chaîne d'origine est renvoyée si *width* est inférieur ou égale à "
+"``len(s)``."
 
 #: library/stdtypes.rst:1213
 msgid ""
@@ -82632,6 +82981,7 @@ msgstr ""
 "convertis en minuscules."
 
 #: library/stdtypes.rst:1219
+#, fuzzy
 msgid ""
 "Return a copy of the string with leading characters removed.  The *chars* "
 "argument is a string specifying the set of characters to be removed.  If "
@@ -82639,6 +82989,11 @@ msgid ""
 "The *chars* argument is not a prefix; rather, all combinations of its values "
 "are stripped:"
 msgstr ""
+"Renvoie une copie de la chaîne des caractères supprimés au début. L'argument "
+"*chars* est une chaîne spécifiant le jeu de caractères à supprimer. En cas "
+"d'omission ou ``None``, la valeur par défaut de *chars* permet de supprimer "
+"des espaces. L'argument *chars* n'est pas un préfixe, toutes les "
+"combinaisons de ses valeurs sont supprimées ::"
 
 #: library/stdtypes.rst:1232
 msgid ""
@@ -82716,11 +83071,16 @@ msgstr ""
 "sous-chaîne *sub* est introuvable."
 
 #: library/stdtypes.rst:1275
+#, fuzzy
 msgid ""
 "Return the string right justified in a string of length *width*. Padding is "
 "done using the specified *fillchar* (default is a space). The original "
 "string is returned if *width* is less than or equal to ``len(s)``."
 msgstr ""
+"Renvoie la chaîne justifié à droite dans une chaîne de longueur *width*. Le "
+"rembourrage est fait en utilisant le caractère spécifié par *fillchar* (par "
+"défaut est un espace ASCII). La chaîne d'origine est renvoyée si *width* est "
+"inférieure ou égale à ``len(s)``."
 
 #: library/stdtypes.rst:1282
 msgid ""
@@ -82750,6 +83110,7 @@ msgstr ""
 "en détail ci-dessous."
 
 #: library/stdtypes.rst:1299
+#, fuzzy
 msgid ""
 "Return a copy of the string with trailing characters removed.  The *chars* "
 "argument is a string specifying the set of characters to be removed.  If "
@@ -82757,6 +83118,11 @@ msgid ""
 "The *chars* argument is not a suffix; rather, all combinations of its values "
 "are stripped:"
 msgstr ""
+"Renvoie une copie de la chaîne avec des caractères finaux supprimés. "
+"L'argument *chars* est une chaîne spécifiant le jeu de caractères à "
+"supprimer. En cas d'omission ou ``None``, les espaces sont supprimés. "
+"L'argument *chars* n'est pas un suffixe : toutes les combinaisons de ses "
+"valeurs sont retirées : ::"
 
 #: library/stdtypes.rst:1312
 msgid ""
@@ -82824,11 +83190,15 @@ msgid ""
 msgstr ""
 
 #: library/stdtypes.rst:1349
+#, fuzzy
 msgid ""
 "Unlike :meth:`~str.split` when a delimiter string *sep* is given, this "
 "method returns an empty list for the empty string, and a terminal line break "
 "does not result in an extra line."
 msgstr ""
+"Contrairement à :meth:`~str.split` lorsque *sep* est fourni, cette méthode "
+"renvoie une liste vide pour la chaîne vide, et un saut de ligne à la fin ne "
+"se traduit pas par une ligne supplémentaire : ::"
 
 #: library/stdtypes.rst:1356
 msgid ""
@@ -82843,6 +83213,7 @@ msgstr ""
 "donné, la comparaison s'arrête à celle ci."
 
 #: library/stdtypes.rst:1364
+#, fuzzy
 msgid ""
 "Return a copy of the string with the leading and trailing characters "
 "removed. The *chars* argument is a string specifying the set of characters "
@@ -82850,6 +83221,11 @@ msgid ""
 "removing whitespace. The *chars* argument is not a prefix or suffix; rather, "
 "all combinations of its values are stripped:"
 msgstr ""
+"Donne une copie de la chaîne dont des caractères initiaux et finaux sont "
+"supprimés. L'argument *chars* est une chaîne spécifiant le jeu de "
+"caractèresà supprimer. En cas d'omission ou ``None``, les espaces sont "
+"supprimés. L'argument *chars* est pas un préfixe ni un suffixe, toutes les "
+"combinaisons de ses valeurs sont supprimées : ::"
 
 #: library/stdtypes.rst:1378
 msgid ""
@@ -82944,6 +83320,7 @@ msgid ""
 msgstr ""
 
 #: library/stdtypes.rst:1468
+#, fuzzy
 msgid ""
 "String objects have one unique built-in operation: the ``%`` operator "
 "(modulo). This is also known as the string *formatting* or *interpolation* "
@@ -82952,6 +83329,12 @@ msgid ""
 "elements of *values*. The effect is similar to the using :c:func:`sprintf` "
 "in the C language."
 msgstr ""
+"Les objets *str* n'exposent qu'une opération : L'opérateur ``%`` (modulo). "
+"Aussi connu sous le nom d'opérateur de *formatting* ouopérateur "
+"d'*interpolation*. Étant donné ``format % values`` (où *format* est une "
+"chaîne),  les marqueurs ``%`` de *format* sont remplacés par zéro ou "
+"plusieurs éléments de *values*. L'effet est similaire à la fonction :c:func:"
+"`sprintf` du langage C."
 
 #: library/stdtypes.rst:1474
 msgid ""
@@ -83434,8 +83817,9 @@ msgid "``s.insert(i, x)``"
 msgstr "``s.insert(i, x)``"
 
 #: library/stdtypes.rst:1733
+#, fuzzy
 msgid "same as ``s[i:i] = [x]``"
-msgstr ""
+msgstr "identique à ``s[i:j] = []``"
 
 #: library/stdtypes.rst:1735
 msgid "``s.pop([i])``"
@@ -83573,17 +83957,22 @@ msgid ""
 msgstr ""
 
 #: library/stdtypes.rst:1823
+#, fuzzy
 msgid ""
 "The methods on bytes and bytearray objects don't accept strings as their "
 "arguments, just as the methods on strings don't accept bytes as their "
 "arguments.  For example, you have to write ::"
 msgstr ""
+"Les méthodes sur les *bytes* et les *bytearray* n'acceptent pas les chaînes "
+"comme arguments, tout comme les méthodes sur les chaînes n'acceptent pas les "
+"*bytes* comme arguments. Par exemple, vous devez écrire ::"
 
 #: library/stdtypes.rst:1830
 msgid "and ::"
 msgstr ""
 
 #: library/stdtypes.rst:1839
+#, fuzzy
 msgid ""
 "Return a string decoded from the given bytes.  Default encoding is "
 "``'utf-8'``. *errors* may be given to set a different error handling "
@@ -83593,6 +83982,14 @@ msgid ""
 "register_error`, see section :ref:`codec-base-classes`. For a list of "
 "possible encodings, see section :ref:`standard-encodings`."
 msgstr ""
+"Décode les octets donnés, et le renvoie sous forme d'une chaîne de "
+"caractères. L'encodage par défaut est ``'utf-8'``. *errors* peut être donné "
+"pour changer de système de gestion des erreurs. Sa valeur par défaut est "
+"``'strict'``, ce qui signifie que les erreurs d'encodage lèvent une :exc:"
+"`UnicodeError`. Les autres valeurs possibles sont ``'ignore'``, "
+"``'replace'`` et tout autre nom enregistré via :func:`codecs."
+"register_error`, voir la section :ref:`error-handlers`. Pour une liste des "
+"encodages possibles, voir la section :ref:`standard-encodings`."
 
 #: library/stdtypes.rst:1847
 msgid "Added support for keyword arguments."
@@ -83603,11 +84000,15 @@ msgid "The bytes and bytearray types have an additional class method:"
 msgstr ""
 
 #: library/stdtypes.rst:1856
+#, fuzzy
 msgid ""
 "This :class:`bytes` class method returns a bytes or bytearray object, "
 "decoding the given string object.  The string must contain two hexadecimal "
 "digits per byte, spaces are ignored."
 msgstr ""
+"Cette méthode de la classe :class:`bytes` renvoie un objet *bytes*, décodant "
+"la chaîne donnée. La chaîne doit contenir deux chiffres hexadécimaux par "
+"octet, les espaces ASCII sont ignorés."
 
 #: library/stdtypes.rst:1864
 msgid ""
@@ -83635,12 +84036,18 @@ msgid ""
 msgstr ""
 
 #: library/stdtypes.rst:1887
+#, fuzzy
 msgid ""
 "This static method returns a translation table usable for :meth:`bytes."
 "translate` that will map each character in *from* into the character at the "
 "same position in *to*; *from* and *to* must be bytes objects and have the "
 "same length."
 msgstr ""
+"Cette méthode statique renvoie une table de traduction utilisable par :meth:"
+"`bytes.translate` qui permettra de changer chaque caractère de *from* par un "
+"caractère à la même position dans *to*; *from* et *to* doivent tous deux "
+"être des :term:`bytes-like objects <bytes-like object>` et avoir la même "
+"longueur."
 
 #: library/stdtypes.rst:1898
 msgid "Set Types --- :class:`set`, :class:`frozenset`"
@@ -84742,6 +85149,7 @@ msgstr ""
 "saut de page, et tabulation verticale."
 
 #: library/string.rst:81
+#, fuzzy
 msgid ""
 "The built-in string class provides the ability to do complex variable "
 "substitutions and value formatting via the :func:`format` method described "
@@ -84749,6 +85157,12 @@ msgid ""
 "allows you to create and customize your own string formatting behaviors "
 "using the same implementation as the built-in :meth:`format` method."
 msgstr ""
+"La classe primitive `string` fournit la possibilité de faire des "
+"substitutions de variables complexes et du formatage de valeurs via la "
+"méthode :meth:`~str.format` décrite par :pep:`3101`. La classe :class:"
+"`Formatter` dans le module :mod:`string` permet de créer et personnaliser "
+"vos propres comportements de formatage de chaînes en utilisant la même "
+"implémentation que la méthode primitive :meth:`~str.format`."
 
 #: library/string.rst:90
 msgid "The :class:`Formatter` class has the following public methods:"
@@ -85505,10 +85919,13 @@ msgid "Format examples"
 msgstr "Exemples de formats"
 
 #: library/string.rst:492
+#, fuzzy
 msgid ""
 "This section contains examples of the new format syntax and comparison with "
 "the old ``%``-formatting."
 msgstr ""
+"Cette section contient des exemples de la syntaxe de :meth:`str.format` et "
+"des comparaisons avec l'ancien formatage par ``%``."
 
 #: library/string.rst:495
 msgid ""
@@ -86243,8 +86660,9 @@ msgid "``b``"
 msgstr "``b``"
 
 #: library/struct.rst:167
+#, fuzzy
 msgid ":c:type:`signed char`"
-msgstr ""
+msgstr ":c:type:`unsigned char`"
 
 #: library/struct.rst:167 library/struct.rst:169 library/struct.rst:173
 #: library/struct.rst:175 library/struct.rst:177 library/struct.rst:179
@@ -87135,8 +87553,9 @@ msgid ""
 msgstr ""
 
 #: library/subprocess.rst:561
+#, fuzzy
 msgid "Sends the signal *signal* to the child."
-msgstr ""
+msgstr "Envoie le signal *signal* au processus fils."
 
 #: library/subprocess.rst:565
 msgid ""
@@ -87547,8 +87966,9 @@ msgid ":mod:`sunau` --- Read and write Sun AU files"
 msgstr ""
 
 #: library/sunau.rst:8
+#, fuzzy
 msgid "**Source code:** :source:`Lib/sunau.py`"
-msgstr ""
+msgstr "**Code source :** :source:`Lib/enum.py`"
 
 #: library/sunau.rst:12
 msgid ""
@@ -87866,8 +88286,9 @@ msgid ":mod:`symbol` --- Constants used with Python parse trees"
 msgstr ""
 
 #: library/symbol.rst:8
+#, fuzzy
 msgid "**Source code:** :source:`Lib/symbol.py`"
-msgstr ""
+msgstr "**Code source :** :source:`Lib/csv.py`"
 
 #: library/symbol.rst:12
 msgid ""
@@ -88351,8 +88772,9 @@ msgid ":const:`division_warning`"
 msgstr ""
 
 #: library/sys.rst:245
+#, fuzzy
 msgid ":option:`-Q`"
-msgstr ""
+msgstr ":option:`-v`"
 
 #: library/sys.rst:246
 msgid ":const:`inspect`"
@@ -89171,8 +89593,9 @@ msgid "Linux (2.x *and* 3.x)"
 msgstr ""
 
 #: library/sys.rst:744
+#, fuzzy
 msgid "``'linux2'``"
-msgstr ""
+msgstr "``'linux'``"
 
 #: library/sys.rst:745
 msgid "``'win32'``"
@@ -90161,8 +90584,9 @@ msgid ":mod:`tabnanny` --- Detection of ambiguous indentation"
 msgstr ""
 
 #: library/tabnanny.rst:12
+#, fuzzy
 msgid "**Source code:** :source:`Lib/tabnanny.py`"
-msgstr ""
+msgstr "**Code source:** :source:`Lib/abc.py`"
 
 #: library/tabnanny.rst:16
 msgid ""
@@ -90224,8 +90648,9 @@ msgid ":mod:`tarfile` --- Read and write tar archive files"
 msgstr ""
 
 #: library/tarfile.rst:11
+#, fuzzy
 msgid "**Source code:** :source:`Lib/tarfile.py`"
-msgstr ""
+msgstr "**Code source :** :source:`Lib/string.py`"
 
 #: library/tarfile.rst:15
 msgid ""
@@ -91099,8 +91524,9 @@ msgid ":mod:`telnetlib` --- Telnet client"
 msgstr ""
 
 #: library/telnetlib.rst:11
+#, fuzzy
 msgid "**Source code:** :source:`Lib/telnetlib.py`"
-msgstr ""
+msgstr "**Code source :** :source:`Lib/ftplib.py`"
 
 #: library/telnetlib.rst:15
 msgid ""
@@ -91325,8 +91751,9 @@ msgid ":mod:`tempfile` --- Generate temporary files and directories"
 msgstr ""
 
 #: library/tempfile.rst:15
+#, fuzzy
 msgid "**Source code:** :source:`Lib/tempfile.py`"
-msgstr ""
+msgstr "**Code source :** :source:`Lib/compileall.py`"
 
 #: library/tempfile.rst:19
 msgid ""
@@ -92427,8 +92854,9 @@ msgid ":mod:`threading` --- Thread-based parallelism"
 msgstr ""
 
 #: library/threading.rst:7
+#, fuzzy
 msgid "**Source code:** :source:`Lib/threading.py`"
-msgstr ""
+msgstr "**Code source :** :source:`Lib/string.py`"
 
 #: library/threading.rst:11
 msgid ""
@@ -94014,8 +94442,9 @@ msgid ""
 msgstr ""
 
 #: library/time.rst:398
+#, fuzzy
 msgid "Values"
-msgstr ""
+msgstr "Valeur"
 
 #: library/time.rst:400
 msgid ":attr:`tm_year`"
@@ -94274,8 +94703,9 @@ msgid ":mod:`timeit` --- Measure execution time of small code snippets"
 msgstr ""
 
 #: library/timeit.rst:12
+#, fuzzy
 msgid "**Source code:** :source:`Lib/timeit.py`"
-msgstr ""
+msgstr "**Code source :** :source:`Lib/datetime.py`"
 
 #: library/timeit.rst:16
 msgid ""
@@ -98331,8 +98761,9 @@ msgid ":mod:`token` --- Constants used with Python parse trees"
 msgstr ""
 
 #: library/token.rst:8
+#, fuzzy
 msgid "**Source code:** :source:`Lib/token.py`"
-msgstr ""
+msgstr "**Code source :** :source:`Lib/code.py`"
 
 #: library/token.rst:12
 msgid ""
@@ -98381,8 +98812,9 @@ msgid ":mod:`tokenize` --- Tokenizer for Python source"
 msgstr ""
 
 #: library/tokenize.rst:9
+#, fuzzy
 msgid "**Source code:** :source:`Lib/tokenize.py`"
-msgstr ""
+msgstr "**Code source :** :source:`Lib/datetime.py`"
 
 #: library/tokenize.rst:13
 msgid ""
@@ -98544,8 +98976,9 @@ msgid ":mod:`trace` --- Trace or track Python statement execution"
 msgstr ""
 
 #: library/trace.rst:7
+#, fuzzy
 msgid "**Source code:** :source:`Lib/trace.py`"
-msgstr ""
+msgstr "**Code source:** :source:`Lib/abc.py`"
 
 #: library/trace.rst:11
 msgid ""
@@ -101430,8 +101863,9 @@ msgid ":mod:`types` --- Names for built-in types"
 msgstr ""
 
 #: library/types.rst:7
+#, fuzzy
 msgid "**Source code:** :source:`Lib/types.py`"
-msgstr ""
+msgstr "**Code source :** :source:`Lib/csv.py`"
 
 #: library/types.rst:11
 msgid ""
@@ -101446,8 +101880,9 @@ msgid "Typical use is for :func:`isinstance` or :func:`issubclass` checks."
 msgstr ""
 
 #: library/types.rst:18
+#, fuzzy
 msgid "The module defines the following names:"
-msgstr ""
+msgstr "Le module définit le type suivant :"
 
 #: library/types.rst:23
 msgid ""
@@ -102609,8 +103044,9 @@ msgstr ""
 
 #: library/unittest.rst:829 library/unittest.rst:950 library/unittest.rst:1078
 #: library/unittest.rst:1232
+#, fuzzy
 msgid "Method"
-msgstr ""
+msgstr "Méthodes"
 
 #: library/unittest.rst:829 library/unittest.rst:950 library/unittest.rst:1078
 msgid "Checks that"
@@ -102928,8 +103364,9 @@ msgid ""
 msgstr ""
 
 #: library/unittest.rst:1080
+#, fuzzy
 msgid ":meth:`assertAlmostEqual(a, b) <TestCase.assertAlmostEqual>`"
-msgstr ""
+msgstr ":meth:`assertNotEqual(a, b) <TestCase.assertNotEqual>`"
 
 #: library/unittest.rst:1080
 msgid "``round(a-b, 7) == 0``"
@@ -102960,20 +103397,23 @@ msgid ":meth:`assertLessEqual(a, b) <TestCase.assertLessEqual>`"
 msgstr ":meth:`assertLessEqual(a, b) <TestCase.assertLessEqual>`"
 
 #: library/unittest.rst:1098
+#, fuzzy
 msgid ":meth:`assertRegex(s, re) <TestCase.assertRegex>`"
-msgstr ""
+msgstr ":meth:`assertRegex(s, r) <TestCase.assertRegex>`"
 
 #: library/unittest.rst:1098
 msgid "``regex.search(s)``"
 msgstr ""
 
 #: library/unittest.rst:1101
+#, fuzzy
 msgid ":meth:`assertNotRegex(s, re) <TestCase.assertNotRegex>`"
-msgstr ""
+msgstr ":meth:`assertNotRegex(s, r) <TestCase.assertNotRegex>`"
 
 #: library/unittest.rst:1101
+#, fuzzy
 msgid "``not regex.search(s)``"
-msgstr ""
+msgstr "``not r.search(s)``"
 
 #: library/unittest.rst:1104
 msgid ":meth:`assertCountEqual(a, b) <TestCase.assertCountEqual>`"
@@ -103037,8 +103477,9 @@ msgid ""
 msgstr ""
 
 #: library/unittest.rst:1158
+#, fuzzy
 msgid ":meth:`.assertNotRegex`."
-msgstr ""
+msgstr ":meth:`.assertRegex`"
 
 #: library/unittest.rst:1164
 msgid ""
@@ -103113,16 +103554,18 @@ msgid ":meth:`assertMultiLineEqual(a, b) <TestCase.assertMultiLineEqual>`"
 msgstr ":meth:`assertMultiLineEqual(a, b) <TestCase.assertMultiLineEqual>`"
 
 #: library/unittest.rst:1234
+#, fuzzy
 msgid "strings"
-msgstr ""
+msgstr "string"
 
 #: library/unittest.rst:1237
 msgid ":meth:`assertSequenceEqual(a, b) <TestCase.assertSequenceEqual>`"
 msgstr ":meth:`assertSequenceEqual(a, b) <TestCase.assertSequenceEqual>`"
 
 #: library/unittest.rst:1237
+#, fuzzy
 msgid "sequences"
-msgstr ""
+msgstr "séquence"
 
 #: library/unittest.rst:1240
 msgid ":meth:`assertListEqual(a, b) <TestCase.assertListEqual>`"
@@ -103364,8 +103807,9 @@ msgid ""
 msgstr ""
 
 #: library/unittest.rst:1458
+#, fuzzy
 msgid "Method Name"
-msgstr ""
+msgstr "Nom de méthode"
 
 #: library/unittest.rst:1458
 msgid "Deprecated alias"
@@ -104398,8 +104842,9 @@ msgid ":mod:`urllib.parse` --- Parse URLs into components"
 msgstr ""
 
 #: library/urllib.parse.rst:15
+#, fuzzy
 msgid "**Source code:** :source:`Lib/urllib/parse.py`"
-msgstr ""
+msgstr "**Code source:** :source:`Lib/argparse.py`"
 
 #: library/urllib.parse.rst:19
 msgid ""
@@ -106602,8 +107047,9 @@ msgid ":mod:`uu` --- Encode and decode uuencode files"
 msgstr ""
 
 #: library/uu.rst:8
+#, fuzzy
 msgid "**Source code:** :source:`Lib/uu.py`"
-msgstr ""
+msgstr "**Code source :** :source:`Lib/enum.py`"
 
 #: library/uu.rst:12
 msgid ""
@@ -106906,8 +107352,9 @@ msgid ":mod:`warnings` --- Warning control"
 msgstr ""
 
 #: library/warnings.rst:9
+#, fuzzy
 msgid "**Source code:** :source:`Lib/warnings.py`"
-msgstr ""
+msgstr "**Code source :** :source:`Lib/string.py`"
 
 #: library/warnings.rst:13
 msgid ""
@@ -107483,8 +107930,9 @@ msgid ":mod:`wave` --- Read and write WAV files"
 msgstr ""
 
 #: library/wave.rst:9
+#, fuzzy
 msgid "**Source code:** :source:`Lib/wave.py`"
-msgstr ""
+msgstr "**Code source :** :source:`Lib/csv.py`"
 
 #: library/wave.rst:13
 msgid ""
@@ -107648,8 +108096,9 @@ msgid ":mod:`weakref` --- Weak references"
 msgstr ""
 
 #: library/weakref.rst:11
+#, fuzzy
 msgid "**Source code:** :source:`Lib/weakref.py`"
-msgstr ""
+msgstr "**Code source:** :source:`Lib/aifc.py`"
 
 #: library/weakref.rst:15
 msgid ""
@@ -110049,8 +110498,9 @@ msgid ":mod:`xdrlib` --- Encode and decode XDR data"
 msgstr ""
 
 #: library/xdrlib.rst:12
+#, fuzzy
 msgid "**Source code:** :source:`Lib/xdrlib.py`"
-msgstr ""
+msgstr "**Code source:** :source:`Lib/difflib.py`"
 
 #: library/xdrlib.rst:16
 msgid ""
@@ -114836,8 +115286,9 @@ msgid ":mod:`zipfile` --- Work with ZIP archives"
 msgstr ""
 
 #: library/zipfile.rst:9
+#, fuzzy
 msgid "**Source code:** :source:`Lib/zipfile.py`"
-msgstr ""
+msgstr "**Code source:** :source:`Lib/aifc.py`"
 
 #: library/zipfile.rst:13
 msgid ""

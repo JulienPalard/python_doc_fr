@@ -423,8 +423,9 @@ msgid ""
 msgstr ""
 
 #: ../Doc/howto/argparse.rst:614 ../Doc/howto/argparse.rst:652
+#, fuzzy
 msgid "Output:"
-msgstr ""
+msgstr "Sortie::"
 
 #: ../Doc/howto/argparse.rst:635
 msgid ""
@@ -2513,8 +2514,9 @@ msgid ""
 msgstr ""
 
 #: ../Doc/howto/functional.rst:615
+#, fuzzy
 msgid "Built-in functions"
-msgstr ""
+msgstr "Fonctions Natives"
 
 #: ../Doc/howto/functional.rst:617
 msgid ""
@@ -7167,8 +7169,9 @@ msgid ""
 msgstr ""
 
 #: ../Doc/howto/regex.rst:311
+#, fuzzy
 msgid "Characters"
-msgstr ""
+msgstr "Caractère"
 
 #: ../Doc/howto/regex.rst:311
 msgid "Stage"

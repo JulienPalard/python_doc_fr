@@ -11537,8 +11537,9 @@ msgid "Constant"
 msgstr ""
 
 #: ../Doc/c-api/typeobj.rst:700
+#, fuzzy
 msgid "Comparison"
-msgstr ""
+msgstr "Comparaisons"
 
 #: ../Doc/c-api/typeobj.rst:702
 msgid ":const:`Py_LT`"

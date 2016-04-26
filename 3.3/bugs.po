@@ -78,9 +78,9 @@ msgid ""
 "pertinent information to be entered and submitted to the developers."
 msgstr ""
 "Les rapports de bugs pour Python lui-même devraient être soumis via le Bug "
-"Tracker Python (http://bugs.python.org/). Le traqueur de bogues propose un "
-"formulaire Web permettant de saisir des informations pertinentes à soumettre "
-"aux développeurs."
+"Tracker Python (http://bugs.python.org/). Le gestionnaire de ticket propose "
+"un formulaire Web permettant de saisir des informations pertinentes à "
+"soumettre aux développeurs."
 
 #: ../Doc/bugs.rst:35
 msgid ""
@@ -179,10 +179,13 @@ msgstr ""
 "est utile."
 
 #: ../Doc/bugs.rst:72
+#, fuzzy
 msgid ""
 "`Bug Writing Guidelines <http://developer.mozilla.org/en/docs/"
 "Bug_writing_guidelines>`_"
 msgstr ""
+"`Guide de la rédaction de bugs <https://developer.mozilla.org/en-US/docs/"
+"Mozilla/QA/Bug_writing_guidelines>`_"
 
 #: ../Doc/bugs.rst:72
 msgid ""

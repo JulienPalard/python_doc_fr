@@ -87,6 +87,7 @@ msgstr ""
 "de modules d'extension."
 
 #: ../Doc/extending/building.rst:58
+#, fuzzy
 msgid ""
 "It is common to pre-compute arguments to :func:`setup`, to better structure "
 "the driver script. In the example above, the\\ ``ext_modules`` argument to :"
@@ -95,6 +96,12 @@ msgid ""
 "defines an extension named ``demo`` which is build by compiling a single "
 "source file, :file:`demo.c`."
 msgstr ""
+"Il est classique de pré-construire les arguments de :func:`setup`, pour "
+"mieux structurer le script pilote. Dans l'exemple précédent, l'argument "
+"``ext_modules`` donné à :func:`setup` est une liste de modules d'extension, "
+"dont chacun est une instance de :class:`~distutils.extension.Extension`. "
+"Dans l'exemple, l'instance défini une extension nommée ``demo`` qui est "
+"construite en compilant un seul fichier source, :file:`demo.c`."
 
 #: ../Doc/extending/building.rst:65
 msgid ""

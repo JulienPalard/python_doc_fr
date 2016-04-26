@@ -781,8 +781,8 @@ msgid ""
 "Convert a Python integer to a C :c:type:`unsigned long` without overflow "
 "checking."
 msgstr ""
-"Convertit un entier Python en un type C :ctype:`unsigned int`, sans contrôle "
-"de le débordement."
+"Convertit un entier Python en un type C :ctype:`unsigned long` sans en "
+"vérifier le débordement."
 
 #: c-api/arg.rst:253 c-api/arg.rst:551
 msgid "L (int) [PY_LONG_LONG]"
@@ -9707,8 +9707,9 @@ msgid "T_OBJECT"
 msgstr ""
 
 #: c-api/structures.rst:260 c-api/structures.rst:261
+#, fuzzy
 msgid "PyObject \\*"
-msgstr ""
+msgstr "PyObject\\*"
 
 #: c-api/structures.rst:261
 msgid "T_OBJECT_EX"
@@ -10865,8 +10866,9 @@ msgid "Constant"
 msgstr ""
 
 #: c-api/typeobj.rst:597
+#, fuzzy
 msgid "Comparison"
-msgstr ""
+msgstr "Comparaisons"
 
 #: c-api/typeobj.rst:599
 msgid ":const:`Py_LT`"

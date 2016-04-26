@@ -99,8 +99,9 @@ msgid ""
 msgstr ""
 
 #: ../Doc/reference/compound_stmts.rst:107
+#, fuzzy
 msgid "The :keyword:`while` statement"
-msgstr ""
+msgstr "L'instruction :keyword:`if`"
 
 #: ../Doc/reference/compound_stmts.rst:115
 msgid ""
@@ -125,8 +126,9 @@ msgid ""
 msgstr ""
 
 #: ../Doc/reference/compound_stmts.rst:140
+#, fuzzy
 msgid "The :keyword:`for` statement"
-msgstr ""
+msgstr "L'instruction :keyword:`if`"
 
 #: ../Doc/reference/compound_stmts.rst:153
 msgid ""
@@ -188,8 +190,9 @@ msgid ""
 msgstr ""
 
 #: ../Doc/reference/compound_stmts.rst:226
+#, fuzzy
 msgid "The :keyword:`try` statement"
-msgstr ""
+msgstr "L'instruction :keyword:`if`"
 
 #: ../Doc/reference/compound_stmts.rst:234
 msgid ""
@@ -321,8 +324,9 @@ msgid ""
 msgstr ""
 
 #: ../Doc/reference/compound_stmts.rst:374
+#, fuzzy
 msgid "The :keyword:`with` statement"
-msgstr ""
+msgstr "L'instruction :keyword:`if`"
 
 #: ../Doc/reference/compound_stmts.rst:380
 msgid ""
@@ -1519,8 +1523,9 @@ msgid ""
 msgstr ""
 
 #: ../Doc/reference/datamodel.rst:642
+#, fuzzy
 msgid "Built-in functions"
-msgstr ""
+msgstr "Fonctions Natives"
 
 #: ../Doc/reference/datamodel.rst:635
 msgid ""
@@ -4131,8 +4136,9 @@ msgid ""
 msgstr ""
 
 #: ../Doc/reference/expressions.rst:382
+#, fuzzy
 msgid ":pep:`0255` - Simple Generators"
-msgstr ""
+msgstr ":pep:`255`: Générateurs simples"
 
 #: ../Doc/reference/expressions.rst:382
 msgid ""
@@ -8356,8 +8362,9 @@ msgid ""
 msgstr ""
 
 #: ../Doc/reference/simple_stmts.rst:491
+#, fuzzy
 msgid "The :keyword:`raise` statement"
-msgstr ""
+msgstr "L'instruction :keyword:`if`"
 
 #: ../Doc/reference/simple_stmts.rst:502
 msgid ""
@@ -8726,7 +8733,7 @@ msgstr ""
 #: ../Doc/reference/simple_stmts.rst:836
 #, fuzzy
 msgid ":pep:`236` - Back to the __future__"
-msgstr "PEP 236 - Retour vers le __future__"
+msgstr ":pep:`236` - Retour vers le :mod:`__future__`"
 
 #: ../Doc/reference/simple_stmts.rst:837
 msgid "The original proposal for the __future__ mechanism."

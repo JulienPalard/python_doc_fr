@@ -1202,6 +1202,7 @@ msgid "namespace"
 msgstr "espace de nom"
 
 #: glossary.rst:505
+#, fuzzy
 msgid ""
 "The place where a variable is stored.  Namespaces are implemented as "
 "dictionaries.  There are the local, global and built-in namespaces as well "
@@ -1213,6 +1214,16 @@ msgid ""
 "`itertools.islice` makes it clear that those functions are implemented by "
 "the :mod:`random` and :mod:`itertools` modules, respectively."
 msgstr ""
+"L'endroit où une variable est stockée. Les espaces de noms sont en fait des "
+"dictionnaires. Il existe des espaces de noms globaux, natifs, ou imbriqués "
+"dans les objets (dans les méthodes). Les espaces de noms sont modulaires "
+"afin d'éviter les conflits de noms. Par exemple, les fonctions :func:"
+"`builtins.open <.open>` et :func:`os.open` sont différenciées par leurs "
+"espaces de nom. Les espaces de noms aident aussi à la lisibilité et "
+"maintenabilité en rendant clair quel module implémente une fonction. Par "
+"exemple, écrire :func:`random.seed` ou :func:`itertools.islice` rend clair "
+"que ces fonctions sont implémentées respectivement dans les modules :mod:"
+"`random` et :mod:`itertools`."
 
 #: glossary.rst:515
 msgid "nested scope"
@@ -1499,11 +1510,16 @@ msgid "statement"
 msgstr "instruction"
 
 #: glossary.rst:645
+#, fuzzy
 msgid ""
 "A statement is part of a suite (a \"block\" of code).  A statement is either "
 "an :term:`expression` or a one of several constructs with a keyword, such "
 "as :keyword:`if`, :keyword:`while` or :keyword:`for`."
 msgstr ""
+"Une instruction (*statement*) fait partie d'une suite, (un \"bloc\" de "
+"code). Une instruction est soit une :term:`expression` soit une ou plusieurs "
+"constructions basées sur un mot-clef, tel qu'un :keyword:`if`, :keyword:"
+"`while`, ou :keyword:`for`."
 
 #: glossary.rst:648
 msgid "triple-quoted string"
@@ -1533,17 +1549,22 @@ msgid "type"
 msgstr "type"
 
 #: glossary.rst:659
+#, fuzzy
 msgid ""
 "The type of a Python object determines what kind of object it is; every "
 "object has a type.  An object's type is accessible as its :attr:`__class__` "
 "attribute or can be retrieved with ``type(obj)``."
 msgstr ""
+"Le type d'un objet Python détermine quel genre d'objet c'est. Tous les "
+"objets ont un type. Le type d'un objet peut être obtenu via son attribut :"
+"attr:`~instance.__class__` ou via ``type(obj)``."
 
 #: glossary.rst:662
 msgid "universal newlines"
 msgstr "retours à la ligne universels"
 
 #: glossary.rst:664
+#, fuzzy
 msgid ""
 "A manner of interpreting text streams in which all of the following are "
 "recognized as ending a line: the Unix end-of-line convention ``'\\n'``, the "
@@ -1551,6 +1572,11 @@ msgid ""
 "``'\\r'``.  See :pep:`278` and :pep:`3116`, as well as :func:`str."
 "splitlines` for an additional use."
 msgstr ""
+"Une manière d'interpréter des flux de texte dans lesquels toutes les fin de "
+"lignes suivantes sont reconnues: la convention Unix ``'\\n'``, la convention "
+"Windows ``'\\r\\n'``, et l'ancienne convention Macintosh ``'\\r'``. Voir la :"
+"pep:`278` et la :pep:`3116`, ainsi que la fonction :func:`bytes.splitlines` "
+"pour d'autres usages."
 
 #: glossary.rst:669
 msgid "view"

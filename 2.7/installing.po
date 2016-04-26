@@ -75,10 +75,13 @@ msgid "Key terms"
 msgstr "Vocabulaire"
 
 #: ../Doc/installing/index.rst:35
+#, fuzzy
 msgid ""
 "``pip`` is the preferred installer program. Starting with Python 2.7.9, it "
 "is included by default with the Python binary installers."
 msgstr ""
+"``pip`` est l'outil d'installation de prédilection. À partir de Python 3.4, "
+"il est inclus par défaut avec l'installateur de Python."
 
 #: ../Doc/installing/index.rst:37
 msgid ""
@@ -232,15 +235,21 @@ msgstr ""
 "Ce sont des réponses rapides ou des liens pour certaines tâches courantes."
 
 #: ../Doc/installing/index.rst:113
+#, fuzzy
 msgid "... install ``pip`` in versions of Python prior to Python 2.7.9?"
 msgstr ""
+"... Installer ``pip`` avec une version de Python antérieures à la 3.4 ?"
 
 #: ../Doc/installing/index.rst:115
+#, fuzzy
 msgid ""
 "Python only started bundling ``pip`` with Python 2.7.9. For earlier "
 "versions, ``pip`` needs to be \"bootstrapped\" as described in the Python "
 "Packaging User Guide."
 msgstr ""
+"Python n'a commencé à fournir ``pip`` depuis Python 3.4. Pour les versions "
+"précédentes, ``pip`` a besoin d'être \"amorcé\" tel que décrit dans le "
+"*Python Packaging User Guide*."
 
 #: ../Doc/installing/index.rst:121
 msgid ""

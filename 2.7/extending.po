@@ -516,10 +516,14 @@ msgstr ""
 "exemple : ::"
 
 #: ../Doc/extending/embedding.rst:226
+#, fuzzy
 msgid ""
 "Insert the above code just above the :c:func:`main` function. Also, insert "
 "the following two statements directly after :c:func:`Py_Initialize`::"
 msgstr ""
+"Insérez le code ci-dessus juste avant la fonction :c:func:`main`. Ajoutez "
+"aussi les deux instructions suivantes avant l'appel à :c:func:"
+"`Py_Initialize` ::"
 
 #: ../Doc/extending/embedding.rst:232
 msgid ""
@@ -574,6 +578,7 @@ msgstr ""
 "dynamiques en C (des :file:`.so`) pour se lier avec."
 
 #: ../Doc/extending/embedding.rst:270
+#, fuzzy
 msgid ""
 "To find out the required compiler and linker flags, you can execute the :"
 "file:`python{X.Y}-config` script which is generated as part of the "
@@ -581,6 +586,10 @@ msgid ""
 "available).  This script has several options, of which the following will be "
 "directly useful to you:"
 msgstr ""
+"Pour trouver les bonnes option de compilateur et *linker*, vous pouvez "
+"exécuter le script :file:`python(X.Y)-config` généré durant l'installation "
+"(un script :file:`python3-config` peut aussi être disponible). Ce script a "
+"quelques options, celles-ci vous seront utiles :"
 
 #: ../Doc/extending/embedding.rst:276
 msgid ""
@@ -960,6 +969,7 @@ msgstr ""
 "quelque chose d'autre, ou en prétendant que rien n'a mal tourné)."
 
 #: ../Doc/extending/extending.rst:177
+#, fuzzy
 msgid ""
 "Every failing :c:func:`malloc` call must be turned into an exception --- the "
 "direct caller of :c:func:`malloc` (or :c:func:`realloc`) must call :c:func:"
@@ -967,6 +977,12 @@ msgid ""
 "creating functions (for example, :c:func:`PyInt_FromLong`) already do this, "
 "so this note is only relevant to those who call :c:func:`malloc` directly."
 msgstr ""
+"Chaque échec de :c:func:`malloc` doit être transformé en une exception --- "
+"l'appelant direct de :c:func:`malloc` (ou :c:func:`realloc`) doit appeler :c:"
+"func:`PyErr_NoMemory` et prendre l'initiative de renvoyer une valeur "
+"d'erreur. Toutes les fonctions construisant des objets (tels que :c:func:"
+"`PyLong_FromLong`) le font déjà, donc cette note ne concerne que ceux qui "
+"appellent :c:func:`malloc` directement."
 
 #: ../Doc/extending/extending.rst:183
 msgid ""
@@ -1024,11 +1040,15 @@ msgstr ""
 "fichier : ::"
 
 #: ../Doc/extending/extending.rst:206
+#, fuzzy
 msgid ""
 "and initialize it in your module's initialization function (:c:func:"
 "`initspam`) with an exception object (leaving out the error checking for "
 "now)::"
 msgstr ""
+"et initialisez-la dans la fonction d'initialisation de votre module (:c:func:"
+"`PyInit_spam`) avec un objet exception (Passons, pour le moment, la "
+"vérification des codes d'erreur) ::"
 
 #: ../Doc/extending/extending.rst:223
 msgid ""
@@ -3204,8 +3224,9 @@ msgid "Never writable."
 msgstr ""
 
 #: ../Doc/extending/newtypes.rst:1212
+#, fuzzy
 msgid ":const:`RO`"
-msgstr ""
+msgstr ":const:`SO`"
 
 #: ../Doc/extending/newtypes.rst:1212
 msgid "Shorthand for :const:`READONLY`."

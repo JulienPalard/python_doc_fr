@@ -3415,8 +3415,9 @@ msgid ""
 msgstr ""
 
 #: ../Doc/whatsnew/2.2.rst:770
+#, fuzzy
 msgid ":pep:`238` - Changing the Division Operator"
-msgstr ""
+msgstr ":pep:`230` -- Gestion des alertes"
 
 #: ../Doc/whatsnew/2.2.rst:771
 msgid ""
@@ -6432,8 +6433,9 @@ msgid ":pep:`292` - Simpler String Substitutions"
 msgstr ""
 
 #: ../Doc/whatsnew/2.4.rst:212
+#, fuzzy
 msgid "Written and implemented  by Barry Warsaw."
-msgstr ""
+msgstr "Écrit et implémenté par Barry Warsaw."
 
 #: ../Doc/whatsnew/2.4.rst:218
 msgid "PEP 318: Decorators for Functions and Methods"
@@ -11266,18 +11268,22 @@ msgid "``b``"
 msgstr "``b``"
 
 #: ../Doc/whatsnew/2.6.rst:806
+#, fuzzy
 msgid "Binary. Outputs the number in base 2."
-msgstr ""
+msgstr "Format binaire. Affiche le nombre en base 2."
 
 #: ../Doc/whatsnew/2.6.rst:807
 msgid "``c``"
 msgstr "``c``"
 
 #: ../Doc/whatsnew/2.6.rst:807
+#, fuzzy
 msgid ""
 "Character. Converts the integer to the corresponding Unicode character "
 "before printing."
 msgstr ""
+"Caractère. Convertit l'entier en le caractère unicode associé avant de "
+"l'afficher."
 
 #: ../Doc/whatsnew/2.6.rst:809
 msgid "``d``"
@@ -11300,10 +11306,13 @@ msgid "``x``"
 msgstr "``x``"
 
 #: ../Doc/whatsnew/2.6.rst:811
+#, fuzzy
 msgid ""
 "Hex format. Outputs the number in base 16, using lower-case letters for the "
 "digits above 9."
 msgstr ""
+"Format hexa(décimal). Affiche le nombre en base 16 en utilisant les lettres "
+"minuscules pour les chiffres au-dessus de 9."
 
 #: ../Doc/whatsnew/2.6.rst:813
 msgid "``e``"
@@ -11341,10 +11350,13 @@ msgid "``%``"
 msgstr ""
 
 #: ../Doc/whatsnew/2.6.rst:821
+#, fuzzy
 msgid ""
 "Percentage. Multiplies the number by 100 and displays in fixed ('f') format, "
 "followed by a percent sign."
 msgstr ""
+"Pourcentage. Multiplie le nombre par 100 et l'affiche en virgule fixe "
+"(``'f'``), suivi d'un symbole pourcent ``'%'``."
 
 #: ../Doc/whatsnew/2.6.rst:825
 msgid ""
@@ -11545,8 +11557,9 @@ msgid ""
 msgstr ""
 
 #: ../Doc/whatsnew/2.6.rst:1017
+#, fuzzy
 msgid ":pep:`3112` - Bytes literals in Python 3000"
-msgstr ""
+msgstr ":pep:`3112` : *Obtets littéraux en Python 3000*"
 
 #: ../Doc/whatsnew/2.6.rst:1018
 msgid "PEP written by Jason Orendorff; backported to 2.6 by Christian Heimes."

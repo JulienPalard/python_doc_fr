@@ -347,8 +347,9 @@ msgid "Cookie management"
 msgstr "Gestion de témoin (*cookie*)"
 
 #: ../Doc/license.rst:473
+#, fuzzy
 msgid "The :mod:`Cookie` module contains the following notice::"
-msgstr ""
+msgstr "Le module :mod:`http.cookies` contient la note suivante : ::"
 
 #: ../Doc/license.rst:499
 msgid "Execution tracing"
@@ -372,8 +373,9 @@ msgstr ""
 "Appel de procédures distantes en XML (*RPC*, pour *Remote Procedure Call*)"
 
 #: ../Doc/license.rst:564
+#, fuzzy
 msgid "The :mod:`xmlrpclib` module contains the following notice::"
-msgstr ""
+msgstr "Le module :mod:`xmlrpc.client` contient la note suivante::"
 
 #: ../Doc/license.rst:595
 msgid "test_epoll"

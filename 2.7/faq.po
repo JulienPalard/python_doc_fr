@@ -540,8 +540,8 @@ msgid ""
 "define yourself."
 msgstr ""
 ":meth:`~str.join` est une méthode de chaîne parce qu'en l'utilisant vous "
-"dites au séparateur de chaîne d'itérer autour d'une séquence de chaînes et "
-"de s'insérer entre les éléments adjacents. Cette méthode peut être utilisée "
+"dites au séparateur de chaîne d'itérer une séquence de chaînes et de "
+"s'insérer entre les éléments adjacents. Cette méthode peut être utilisée "
 "avec n'importe quel argument qui obéit aux règles d'objets séquence, "
 "incluant n'importe quelles nouvelles classes que vous pourriez définir vous-"
 "même. Des méthodes similaires existent pour des objets bytes et bytearray."
@@ -836,6 +836,7 @@ msgid ""
 msgstr ""
 
 #: ../Doc/faq/design.rst:478
+#, fuzzy
 msgid ""
 "Traditional GC also becomes a problem when Python is embedded into other "
 "applications.  While in a standalone Python it's fine to replace the "
@@ -844,6 +845,13 @@ msgid ""
 "malloc() and free(), and may not want Python's.  Right now, Python works "
 "with anything that implements malloc() and free() properly."
 msgstr ""
+"Le *GC* classique devient également un problème lorsque Python est incorporé "
+"dans d'autres applications. Bien que dans une application Python, il ne soit "
+"pas gênant de remplacer  les fonctions malloc() et free() avec les versions "
+"fournies par la bibliothèque *GC*, une application incluant Python peut "
+"vouloir avoir ses propres implémentations de malloc() et free() et peut ne "
+"pas vouloir celles de Python. À l'heure actuelle, CPython fonctionne avec "
+"n'importe quelle implémentation correcte de malloc() et free()."
 
 #: ../Doc/faq/design.rst:485
 msgid ""
@@ -861,8 +869,10 @@ msgid ""
 msgstr ""
 
 #: ../Doc/faq/design.rst:504
+#, fuzzy
 msgid "Why isn't all memory freed when Python exits?"
 msgstr ""
+"Pourquoi toute la mémoire n'est pas libérée lorsque *CPython* s'arrête ?"
 
 #: ../Doc/faq/design.rst:506
 msgid ""
@@ -998,6 +1008,7 @@ msgstr ""
 "la plupart des circonstances, et leur implémentation est plus simple."
 
 #: ../Doc/faq/design.rst:563
+#, fuzzy
 msgid ""
 "Dictionaries work by computing a hash code for each key stored in the "
 "dictionary using the :func:`hash` built-in function.  The hash code varies "
@@ -1011,6 +1022,22 @@ msgid ""
 "the array as the ``.keys()`` and ``.items()`` do will output the "
 "dictionary's content in some arbitrary jumbled order."
 msgstr ""
+"Les dictionnaires fonctionnent en calculant un code de hachage pour chaque "
+"clé stockée dans le dictionnaire en utilisant la fonction :func:`hash`.  Le "
+"code de hachage varie grandement selon la clé et du nombre de processus "
+"utilisés ; Par exemple, la chaine de caractère \"Python\" pourrait avoir "
+"comme code de hachage une valeur allant jusqu'à-539294296 tandis que la "
+"chaine \"python\",qui se distingue de la première par un seul bit, pourrait "
+"avoir comme code de hachage une valeur allant jusqu'à 1142331976.  Le code "
+"de hachage est ensuite utilisé pour calculer un emplacement dans un tableau "
+"interne où la valeur est stockée.  Dans l'hypothèse où vous stockez les clés "
+"qui ont toutes des valeurs de hachage différentes, cela signifie que les "
+"dictionnaires parcourt le dictionnaire en un temps constant  -- O(1), en "
+"notation scientifique informatique - - pour récupérer une clé.  Cela "
+"signifie également qu'aucun ordre de tri des clés n'est maintenu, et lors du "
+"parcours du tableau, les ``.keys()`` et ``.items()`` afficheront le contenu "
+"du dictionnaire dans un certain ordre arbitraire qui peut changer à chaque "
+"appel d'un programme."
 
 #: ../Doc/faq/design.rst:576
 msgid "Why must dictionary keys be immutable?"
